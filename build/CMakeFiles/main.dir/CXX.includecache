@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/sjcheng/Desktop/腾讯面试/main.cpp
+iostream
+-
+memory
+-
+vector
+-
+list
+-
+map
+-
+

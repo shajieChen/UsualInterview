@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/sjcheng/Desktop/腾讯面试/build",
+  "command": "/usr/bin/clang++    -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=gnu++14 -o CMakeFiles/main.dir/main.cpp.o -c /Users/sjcheng/Desktop/腾讯面试/main.cpp",
+  "file": "/Users/sjcheng/Desktop/腾讯面试/main.cpp"
+}
+]
