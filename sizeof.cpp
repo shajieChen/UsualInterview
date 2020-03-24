@@ -14,7 +14,17 @@ int main(int, char**) {
     std::cout << "share Ptr: " <<sizeof(test2) << std::endl ; 
     std::cout << "weak Ptr: " <<sizeof(test3) << std::endl; 
 
+	std::cout << "/* ------------------------------- 基本数据类型 ------------------------------ */" << std::endl; 
+
+    cout<<"sizeof(char) = "<<sizeof(char)<<endl;
+	cout<<"sizeof(int) = "<<sizeof(int)<<endl;
+	cout<<"sizeof(unsigned int) = "<<sizeof(unsigned int)<<endl;
+	cout<<"sizeof(long) = "<<sizeof(unsigned long)<<endl;
+	cout<<"sizeof(unsigned long) = "<<sizeof(unsigned long)<<endl;
+	cout<<"sizeof(float) = "<<sizeof(float)<<endl;
+	cout<<"sizeof(double) = "<<sizeof(double)<<endl; 
 /* ----------------------------- test Container ----------------------------- */
+
 	std::cout << "/* ------------------------------- Empty Array Size ------------------------------ */" << std::endl; 
 
     cout<<"sizeof(array<char>) = "<<sizeof(array<char,1>)<<endl;
