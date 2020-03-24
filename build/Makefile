@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.16.5/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/sjcheng/Desktop/腾讯面试
+CMAKE_SOURCE_DIR = /Users/sjcheng/Desktop/腾讯面试/UsualInterview
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/sjcheng/Desktop/腾讯面试/build
+CMAKE_BINARY_DIR = /Users/sjcheng/Desktop/腾讯面试/UsualInterview/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	/usr/local/Cellar/cmake/3.16.5/bin/cpack --config ./CPackSourceConfig.cmake /Users/sjcheng/Desktop/腾讯面试/build/CPackSourceConfig.cmake
+	/usr/local/Cellar/cmake/3.16.5/bin/cpack --config ./CPackSourceConfig.cmake /Users/sjcheng/Desktop/腾讯面试/UsualInterview/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -113,9 +113,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sjcheng/Desktop/腾讯面试/build/CMakeFiles /Users/sjcheng/Desktop/腾讯面试/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sjcheng/Desktop/腾讯面试/UsualInterview/build/CMakeFiles /Users/sjcheng/Desktop/腾讯面试/UsualInterview/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sjcheng/Desktop/腾讯面试/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sjcheng/Desktop/腾讯面试/UsualInterview/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -520,32 +520,32 @@ Experimental/fast:
 	$(MAKE) -f CMakeFiles/Experimental.dir/build.make CMakeFiles/Experimental.dir/build
 .PHONY : Experimental/fast
 
-main.o: main.cpp.o
+sizeof.o: sizeof.cpp.o
 
-.PHONY : main.o
+.PHONY : sizeof.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
-.PHONY : main.cpp.o
+sizeof.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/sizeof.cpp.o
+.PHONY : sizeof.cpp.o
 
-main.i: main.cpp.i
+sizeof.i: sizeof.cpp.i
 
-.PHONY : main.i
+.PHONY : sizeof.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
-.PHONY : main.cpp.i
+sizeof.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/sizeof.cpp.i
+.PHONY : sizeof.cpp.i
 
-main.s: main.cpp.s
+sizeof.s: sizeof.cpp.s
 
-.PHONY : main.s
+.PHONY : sizeof.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
-.PHONY : main.cpp.s
+sizeof.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/sizeof.cpp.s
+.PHONY : sizeof.cpp.s
 
 # Help Target
 help:
@@ -587,9 +587,9 @@ help:
 	@echo "... ExperimentalMemCheck"
 	@echo "... Continuous"
 	@echo "... Experimental"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... sizeof.o"
+	@echo "... sizeof.i"
+	@echo "... sizeof.s"
 .PHONY : help
 
 

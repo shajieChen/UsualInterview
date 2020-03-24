@@ -43,10 +43,10 @@ RM = /usr/local/Cellar/cmake/3.16.5/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/sjcheng/Desktop/腾讯面试
+CMAKE_SOURCE_DIR = /Users/sjcheng/Desktop/腾讯面试/UsualInterview
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/sjcheng/Desktop/腾讯面试/build
+CMAKE_BINARY_DIR = /Users/sjcheng/Desktop/腾讯面试/UsualInterview/build
 
 # Utility rule file for ExperimentalStart.
 
@@ -71,6 +71,6 @@ CMakeFiles/ExperimentalStart.dir/clean:
 .PHONY : CMakeFiles/ExperimentalStart.dir/clean
 
 CMakeFiles/ExperimentalStart.dir/depend:
-	cd /Users/sjcheng/Desktop/腾讯面试/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/sjcheng/Desktop/腾讯面试 /Users/sjcheng/Desktop/腾讯面试 /Users/sjcheng/Desktop/腾讯面试/build /Users/sjcheng/Desktop/腾讯面试/build /Users/sjcheng/Desktop/腾讯面试/build/CMakeFiles/ExperimentalStart.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/sjcheng/Desktop/腾讯面试/UsualInterview/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/sjcheng/Desktop/腾讯面试/UsualInterview /Users/sjcheng/Desktop/腾讯面试/UsualInterview /Users/sjcheng/Desktop/腾讯面试/UsualInterview/build /Users/sjcheng/Desktop/腾讯面试/UsualInterview/build /Users/sjcheng/Desktop/腾讯面试/UsualInterview/build/CMakeFiles/ExperimentalStart.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ExperimentalStart.dir/depend
 

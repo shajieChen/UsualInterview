@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /Users/sjcheng/Desktop/腾讯面试
-BuildDirectory: /Users/sjcheng/Desktop/腾讯面试/build
+SourceDirectory: /Users/sjcheng/Desktop/腾讯面试/UsualInterview
+BuildDirectory: /Users/sjcheng/Desktop/腾讯面试/UsualInterview/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -14,7 +14,7 @@ CostDataFile:
 Site: SJdeMacBook-Pro.local
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
-BuildName: Darwin-clang++
+BuildName: Darwin-c++
 
 # Subprojects
 LabelsForSubprojects: 
@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/local/Cellar/cmake/3.16.5/bin/cmake" "/Users/sjcheng/Desktop/腾讯面试"
+ConfigureCommand: "/usr/local/Cellar/cmake/3.16.5/bin/cmake" "/Users/sjcheng/Desktop/腾讯面试/UsualInterview"
 MakeCommand: /usr/local/Cellar/cmake/3.16.5/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
@@ -57,12 +57,12 @@ P4UpdateOptions:
 P4UpdateCustom: 
 
 # Generic update command
-UpdateCommand: 
+UpdateCommand: /usr/bin/git
 UpdateOptions: 
-UpdateType: 
+UpdateType: git
 
 # Compiler info
-Compiler: /usr/bin/clang++
+Compiler: /Library/Developer/CommandLineTools/usr/bin/c++
 CompilerVersion: 10.0.1.10010046
 
 # Dynamic analysis (MemCheck)

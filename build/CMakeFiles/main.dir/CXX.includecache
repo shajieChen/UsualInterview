@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/sjcheng/Desktop/腾讯面试/main.cpp
+/Users/sjcheng/Desktop/腾讯面试/UsualInterview/sizeof.cpp
 iostream
 -
 memory
@@ -16,5 +16,7 @@ vector
 list
 -
 map
+-
+array
 -
 
