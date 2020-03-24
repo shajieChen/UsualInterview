@@ -5,6 +5,8 @@
 #include <map>
 #include <array> 
 #include <deque> 
+#include <stack>
+#include <queue>
 using namespace std ;  
 int main(int, char**) {
     std::unique_ptr<float> test = std::make_unique<float>() ; 
@@ -23,8 +25,8 @@ int main(int, char**) {
 	cout<<"sizeof(unsigned long) = "<<sizeof(unsigned long)<<endl;
 	cout<<"sizeof(float) = "<<sizeof(float)<<endl;
 	cout<<"sizeof(double) = "<<sizeof(double)<<endl; 
-/* ----------------------------- test Container ----------------------------- */
 
+/* ----------------------------- test Container ----------------------------- */
 	std::cout << "/* ------------------------------- Empty Array Size ------------------------------ */" << std::endl; 
 
     cout<<"sizeof(array<char>) = "<<sizeof(array<char,1>)<<endl;
@@ -78,6 +80,12 @@ int main(int, char**) {
 	cout<<"sizeof(deque<bool>) = "<<sizeof(deque<bool>)<<endl;
 	cout<<"sizeof(deque<string>) = "<<sizeof(deque<string>)<<endl;
 
+	std::cout << "/* ----------------------------- stack/ queue 换底层数据结构---------------------------- */" << std::endl ;
+    cout<<"sizeof(stack<string, vector(string)>>) = "<<sizeof(stack<string , vector<string>>) << endl;
+    cout<<"sizeof(stack<string, list(string)>>) = "<<sizeof(stack<string , list<string>>) << endl;
+
+	cout<<"sizeof(queue<string, vector(string)>>) = "<<sizeof(queue<string , vector<string>>) << endl;
+    cout<<"sizeof(queue<string, list(string)>>) = "<<sizeof(queue<string , list<string>>) << endl; 
     std::cout << "/* ------------------------------- list Size ------------------------------ */" << std::endl; 
     cout<<"sizeof(list<char>) = "<<sizeof(list<char>)<<endl;
 	cout<<"sizeof(list<int>) = "<<sizeof(list<int>)<<endl;
