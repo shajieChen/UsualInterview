@@ -4,6 +4,7 @@
 #include <list>
 #include <map>
 #include <array> 
+#include <deque> 
 using namespace std ;  
 int main(int, char**) {
     std::unique_ptr<float> test = std::make_unique<float>() ; 
@@ -57,6 +58,16 @@ int main(int, char**) {
 	cout<<"sizeof(vector<bool*>) = "<<sizeof(vector<bool*>::iterator)<<endl;
 	cout<<"sizeof(vector<string*>) = "<<sizeof(vector<string*>::iterator)<<endl;
 
+   std::cout << "/* ----------------------------- deque size---------------------------- */" << std::endl ;
+    cout<<"sizeof(deuqe<char>) = "<<sizeof(deque<char>)<<endl;
+	cout<<"sizeof(deque<int>) = "<<sizeof(deque<int>)<<endl;
+	cout<<"sizeof(deque<short>) = "<<sizeof(deque<short>)<<endl;
+	cout<<"sizeof(deque<double>) = "<<sizeof(deque<double>)<<endl;
+	cout<<"sizeof(deque<long>) = "<<sizeof(deque<long>)<<endl;
+	cout<<"sizeof(deque<float>) = "<<sizeof(deque<float>)<<endl;
+	cout<<"sizeof(deque<bool>) = "<<sizeof(deque<bool>)<<endl;
+	cout<<"sizeof(deque<string>) = "<<sizeof(deque<string>)<<endl;
+
     std::cout << "/* ------------------------------- list Size ------------------------------ */" << std::endl; 
     cout<<"sizeof(list<char>) = "<<sizeof(list<char>)<<endl;
 	cout<<"sizeof(list<int>) = "<<sizeof(list<int>)<<endl;
@@ -76,4 +87,6 @@ int main(int, char**) {
     cout<<"sizeof(map<float,float>) = "<<sizeof(map<float,float>)<<endl;
     cout<<"sizeof(map<bool,bool>) = "<<sizeof(map<bool,bool>)<<endl;
     cout<<"sizeof(map<string,string>) = "<<sizeof(map<string,string>)<<endl;
+
+	
 }
