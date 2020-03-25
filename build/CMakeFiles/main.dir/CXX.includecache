@@ -6,23 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/sjcheng/Desktop/腾讯面试/UsualInterview/sizeof.cpp
+/Users/sjcheng/Desktop/腾讯面试/UsualInterview/basicVar.cpp
 iostream
--
-memory
--
-vector
--
-list
--
-map
--
-array
--
-deque
--
-stack
--
-queue
 -
 

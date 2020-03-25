@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/sizeof.cpp.o"
+  "CMakeFiles/main.dir/basicVar.cpp.o"
   "main"
   "main.pdb"
 )

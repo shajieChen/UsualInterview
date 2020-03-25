@@ -7,24 +7,10 @@
 #include <deque> 
 #include <stack>
 #include <queue>
+
 using namespace std ;  
 int main(int, char**) {
-    std::unique_ptr<float> test = std::make_unique<float>() ; 
-    std::shared_ptr<int> test2 = std::make_shared<int>() ; 
-    std::weak_ptr<int> test3 = test2; 
-    std::cout << "Unique Ptr: " << sizeof(test) << std::endl ;  
-    std::cout << "share Ptr: " <<sizeof(test2) << std::endl ; 
-    std::cout << "weak Ptr: " <<sizeof(test3) << std::endl; 
 
-	std::cout << "/* ------------------------------- 基本数据类型 ------------------------------ */" << std::endl; 
-
-    cout<<"sizeof(char) = "<<sizeof(char)<<endl;
-	cout<<"sizeof(int) = "<<sizeof(int)<<endl;
-	cout<<"sizeof(unsigned int) = "<<sizeof(unsigned int)<<endl;
-	cout<<"sizeof(long) = "<<sizeof(unsigned long)<<endl;
-	cout<<"sizeof(unsigned long) = "<<sizeof(unsigned long)<<endl;
-	cout<<"sizeof(float) = "<<sizeof(float)<<endl;
-	cout<<"sizeof(double) = "<<sizeof(double)<<endl; 
 
 /* ----------------------------- test Container ----------------------------- */
 	std::cout << "/* ------------------------------- Empty Array Size ------------------------------ */" << std::endl; 
@@ -95,16 +81,6 @@ int main(int, char**) {
 	cout<<"sizeof(list<float>) = "<<sizeof(list<float>)<<endl;
 	cout<<"sizeof(list<bool>) = "<<sizeof(list<bool>)<<endl;
 	cout<<"sizeof(list<string>) = "<<sizeof(vector<string>)<<endl; 
-
-    std::cout << "/* ------------------------------- map Size ------------------------------ */" << std::endl; 
-    cout<<"sizeof(map<char,char>) = "<<sizeof(map<char,char>)<<endl;
-    cout<<"sizeof(map<int,int>) = "<<sizeof(map<int,int>)<<endl;
-    cout<<"sizeof(map<short,short>) = "<<sizeof(map<short,short>)<<endl;
-    cout<<"sizeof(map<double,double>) = "<<sizeof(map<double,double>)<<endl;
-    cout<<"sizeof(map<long,long>) = "<<sizeof(map<long,long>)<<endl;
-    cout<<"sizeof(map<float,float>) = "<<sizeof(map<float,float>)<<endl;
-    cout<<"sizeof(map<bool,bool>) = "<<sizeof(map<bool,bool>)<<endl;
-    cout<<"sizeof(map<string,string>) = "<<sizeof(map<string,string>)<<endl;
 
 	
 }

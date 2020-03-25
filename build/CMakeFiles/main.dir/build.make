@@ -57,27 +57,27 @@ include CMakeFiles/main.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main.dir/flags.make
 
-CMakeFiles/main.dir/sizeof.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/sizeof.cpp.o: ../sizeof.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sjcheng/Desktop/腾讯面试/UsualInterview/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/sizeof.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/sizeof.cpp.o -c /Users/sjcheng/Desktop/腾讯面试/UsualInterview/sizeof.cpp
+CMakeFiles/main.dir/basicVar.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/basicVar.cpp.o: ../basicVar.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sjcheng/Desktop/腾讯面试/UsualInterview/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/basicVar.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/basicVar.cpp.o -c /Users/sjcheng/Desktop/腾讯面试/UsualInterview/basicVar.cpp
 
-CMakeFiles/main.dir/sizeof.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/sizeof.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sjcheng/Desktop/腾讯面试/UsualInterview/sizeof.cpp > CMakeFiles/main.dir/sizeof.cpp.i
+CMakeFiles/main.dir/basicVar.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/basicVar.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sjcheng/Desktop/腾讯面试/UsualInterview/basicVar.cpp > CMakeFiles/main.dir/basicVar.cpp.i
 
-CMakeFiles/main.dir/sizeof.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/sizeof.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sjcheng/Desktop/腾讯面试/UsualInterview/sizeof.cpp -o CMakeFiles/main.dir/sizeof.cpp.s
+CMakeFiles/main.dir/basicVar.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/basicVar.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sjcheng/Desktop/腾讯面试/UsualInterview/basicVar.cpp -o CMakeFiles/main.dir/basicVar.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
-"CMakeFiles/main.dir/sizeof.cpp.o"
+"CMakeFiles/main.dir/basicVar.cpp.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
-main: CMakeFiles/main.dir/sizeof.cpp.o
+main: CMakeFiles/main.dir/basicVar.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/sjcheng/Desktop/腾讯面试/UsualInterview/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main"

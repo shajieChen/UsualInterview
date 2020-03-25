@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/sjcheng/Desktop/腾讯面试/UsualInterview/sizeof.cpp" "/Users/sjcheng/Desktop/腾讯面试/UsualInterview/build/CMakeFiles/main.dir/sizeof.cpp.o"
+  "/Users/sjcheng/Desktop/腾讯面试/UsualInterview/basicVar.cpp" "/Users/sjcheng/Desktop/腾讯面试/UsualInterview/build/CMakeFiles/main.dir/basicVar.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

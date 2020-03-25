@@ -520,32 +520,32 @@ Experimental/fast:
 	$(MAKE) -f CMakeFiles/Experimental.dir/build.make CMakeFiles/Experimental.dir/build
 .PHONY : Experimental/fast
 
-sizeof.o: sizeof.cpp.o
+basicVar.o: basicVar.cpp.o
 
-.PHONY : sizeof.o
+.PHONY : basicVar.o
 
 # target to build an object file
-sizeof.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/sizeof.cpp.o
-.PHONY : sizeof.cpp.o
+basicVar.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/basicVar.cpp.o
+.PHONY : basicVar.cpp.o
 
-sizeof.i: sizeof.cpp.i
+basicVar.i: basicVar.cpp.i
 
-.PHONY : sizeof.i
+.PHONY : basicVar.i
 
 # target to preprocess a source file
-sizeof.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/sizeof.cpp.i
-.PHONY : sizeof.cpp.i
+basicVar.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/basicVar.cpp.i
+.PHONY : basicVar.cpp.i
 
-sizeof.s: sizeof.cpp.s
+basicVar.s: basicVar.cpp.s
 
-.PHONY : sizeof.s
+.PHONY : basicVar.s
 
 # target to generate assembly for a file
-sizeof.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/sizeof.cpp.s
-.PHONY : sizeof.cpp.s
+basicVar.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/basicVar.cpp.s
+.PHONY : basicVar.cpp.s
 
 # Help Target
 help:
@@ -587,9 +587,9 @@ help:
 	@echo "... ExperimentalMemCheck"
 	@echo "... Continuous"
 	@echo "... Experimental"
-	@echo "... sizeof.o"
-	@echo "... sizeof.i"
-	@echo "... sizeof.s"
+	@echo "... basicVar.o"
+	@echo "... basicVar.i"
+	@echo "... basicVar.s"
 .PHONY : help
 
 
