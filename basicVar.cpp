@@ -13,7 +13,9 @@ int main(int argc, char const *argv[])
     std::cout << "Unique Ptr: " << sizeof(test) << std::endl ;  
     std::cout << "share Ptr: " <<sizeof(test2) << std::endl ; 
     std::cout << "weak Ptr: " <<sizeof(test3) << std::endl;
-
+    /**
+     * Empty InnerClass: 1
+     */
     class innerClass 
     { 
     };
@@ -23,6 +25,8 @@ int main(int argc, char const *argv[])
      */
     enum test 
     { 
+        fist = 0,  
+        last  
     }; 
     std::cout << "Empty Enum: " << sizeof(test) << std::endl;  
 	std::cout << "/* ------------------------------- 基本数据类型 ------------------------------ */" << std::endl; 

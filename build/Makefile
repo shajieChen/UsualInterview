@@ -520,32 +520,32 @@ Experimental/fast:
 	$(MAKE) -f CMakeFiles/Experimental.dir/build.make CMakeFiles/Experimental.dir/build
 .PHONY : Experimental/fast
 
-basicVar.o: basicVar.cpp.o
+SizeOfEnum.o: SizeOfEnum.cpp.o
 
-.PHONY : basicVar.o
+.PHONY : SizeOfEnum.o
 
 # target to build an object file
-basicVar.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/basicVar.cpp.o
-.PHONY : basicVar.cpp.o
+SizeOfEnum.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/SizeOfEnum.cpp.o
+.PHONY : SizeOfEnum.cpp.o
 
-basicVar.i: basicVar.cpp.i
+SizeOfEnum.i: SizeOfEnum.cpp.i
 
-.PHONY : basicVar.i
+.PHONY : SizeOfEnum.i
 
 # target to preprocess a source file
-basicVar.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/basicVar.cpp.i
-.PHONY : basicVar.cpp.i
+SizeOfEnum.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/SizeOfEnum.cpp.i
+.PHONY : SizeOfEnum.cpp.i
 
-basicVar.s: basicVar.cpp.s
+SizeOfEnum.s: SizeOfEnum.cpp.s
 
-.PHONY : basicVar.s
+.PHONY : SizeOfEnum.s
 
 # target to generate assembly for a file
-basicVar.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/basicVar.cpp.s
-.PHONY : basicVar.cpp.s
+SizeOfEnum.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/SizeOfEnum.cpp.s
+.PHONY : SizeOfEnum.cpp.s
 
 # Help Target
 help:
@@ -587,9 +587,9 @@ help:
 	@echo "... ExperimentalMemCheck"
 	@echo "... Continuous"
 	@echo "... Experimental"
-	@echo "... basicVar.o"
-	@echo "... basicVar.i"
-	@echo "... basicVar.s"
+	@echo "... SizeOfEnum.o"
+	@echo "... SizeOfEnum.i"
+	@echo "... SizeOfEnum.s"
 .PHONY : help
 
 

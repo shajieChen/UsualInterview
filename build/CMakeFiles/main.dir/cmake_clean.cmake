@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/basicVar.cpp.o"
+  "CMakeFiles/main.dir/SizeOfEnum.cpp.o"
   "main"
   "main.pdb"
 )
