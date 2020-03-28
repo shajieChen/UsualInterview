@@ -12,6 +12,11 @@ enum EnumTest{
     a =1,b = 5
 };
  
+class emptyClass
+{
+
+};
+
 class B{
     enum EnumTest enumTest1;
 };
@@ -28,13 +33,7 @@ enum EnumChar : unsigned char {
     A = 0x00,
     B,
     C = 0xff
-};
- /**
-  * size of enum 4
-    Class A veriable size 1
-    Class B veriable size 1
-    sizeof EnumChar1
-  */
+}; 
 int main()
 {
     /**
@@ -43,13 +42,17 @@ int main()
         Class B veriable size 1
         sizeof EnumChar: 1
      */
-    cout << "size of enum "<< sizeof(enum EnumTest) << endl;
+    cout << "size of non Inherited enum "<< sizeof(enum EnumTest) << endl;
     cout << "Class A veriable size " << sizeof(A) << endl;//内存大小最少是1字节（所以class A这里是1字节）
     cout << "Class B veriable size " << sizeof(B) << endl;
     cout << "sizeof EnumChar: "<< sizeof(EnumChar) << endl;
     /**
      * size of x 4
      */
-    std::cout << "size of x " << sizeof(x) << std::endl;  
+    std::cout << "size of Normal enum " << sizeof(x) << std::endl;
+    /**
+     * size of Empty Class 1
+     */
+    std::cout << "size of Empty Class " << sizeof(emptyClass)  << std::endl ;   
     return 0;
 }

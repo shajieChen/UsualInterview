@@ -520,32 +520,32 @@ Experimental/fast:
 	$(MAKE) -f CMakeFiles/Experimental.dir/build.make CMakeFiles/Experimental.dir/build
 .PHONY : Experimental/fast
 
-SizeOfEnum.o: SizeOfEnum.cpp.o
+CodingPartices/CompeleteBinaryTree.o: CodingPartices/CompeleteBinaryTree.cpp.o
 
-.PHONY : SizeOfEnum.o
+.PHONY : CodingPartices/CompeleteBinaryTree.o
 
 # target to build an object file
-SizeOfEnum.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/SizeOfEnum.cpp.o
-.PHONY : SizeOfEnum.cpp.o
+CodingPartices/CompeleteBinaryTree.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/CodingPartices/CompeleteBinaryTree.cpp.o
+.PHONY : CodingPartices/CompeleteBinaryTree.cpp.o
 
-SizeOfEnum.i: SizeOfEnum.cpp.i
+CodingPartices/CompeleteBinaryTree.i: CodingPartices/CompeleteBinaryTree.cpp.i
 
-.PHONY : SizeOfEnum.i
+.PHONY : CodingPartices/CompeleteBinaryTree.i
 
 # target to preprocess a source file
-SizeOfEnum.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/SizeOfEnum.cpp.i
-.PHONY : SizeOfEnum.cpp.i
+CodingPartices/CompeleteBinaryTree.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/CodingPartices/CompeleteBinaryTree.cpp.i
+.PHONY : CodingPartices/CompeleteBinaryTree.cpp.i
 
-SizeOfEnum.s: SizeOfEnum.cpp.s
+CodingPartices/CompeleteBinaryTree.s: CodingPartices/CompeleteBinaryTree.cpp.s
 
-.PHONY : SizeOfEnum.s
+.PHONY : CodingPartices/CompeleteBinaryTree.s
 
 # target to generate assembly for a file
-SizeOfEnum.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/SizeOfEnum.cpp.s
-.PHONY : SizeOfEnum.cpp.s
+CodingPartices/CompeleteBinaryTree.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/CodingPartices/CompeleteBinaryTree.cpp.s
+.PHONY : CodingPartices/CompeleteBinaryTree.cpp.s
 
 # Help Target
 help:
@@ -587,9 +587,9 @@ help:
 	@echo "... ExperimentalMemCheck"
 	@echo "... Continuous"
 	@echo "... Experimental"
-	@echo "... SizeOfEnum.o"
-	@echo "... SizeOfEnum.i"
-	@echo "... SizeOfEnum.s"
+	@echo "... CodingPartices/CompeleteBinaryTree.o"
+	@echo "... CodingPartices/CompeleteBinaryTree.i"
+	@echo "... CodingPartices/CompeleteBinaryTree.s"
 .PHONY : help
 
 

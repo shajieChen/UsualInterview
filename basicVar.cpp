@@ -1,4 +1,5 @@
 #include <iostream>
+#include <limits>
 using namespace std ; 
 int main(int argc, char const *argv[])
 {
@@ -46,6 +47,14 @@ int main(int argc, char const *argv[])
 	cout<<"sizeof(unsigned long) = "<<sizeof(unsigned long)<<endl;
 	cout<<"sizeof(float) = "<<sizeof(float)<<endl;
 	cout<<"sizeof(double) = "<<sizeof(double)<<endl; 
+
+    unsigned int i ; 
+    i = - 1; 
+    /**
+     * Unsigned int - 1:FFFFFFFF
+     */ 
+    printf("Unsigned Max int - 1:%X" , i) ;
+    std::cout << std::endl;  
 
     return 0 ;
 }
