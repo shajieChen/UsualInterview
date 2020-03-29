@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/sjcheng/Desktop/腾讯面试/UsualInterview/CodingPartices/CompeleteBinaryTree.cpp" "/Users/sjcheng/Desktop/腾讯面试/UsualInterview/build/CMakeFiles/main.dir/CodingPartices/CompeleteBinaryTree.cpp.o"
+  "/Users/sjcheng/Desktop/腾讯面试/UsualInterview/main.cpp" "/Users/sjcheng/Desktop/腾讯面试/UsualInterview/build/CMakeFiles/main.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

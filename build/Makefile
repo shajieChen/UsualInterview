@@ -520,32 +520,32 @@ Experimental/fast:
 	$(MAKE) -f CMakeFiles/Experimental.dir/build.make CMakeFiles/Experimental.dir/build
 .PHONY : Experimental/fast
 
-CodingPartices/CompeleteBinaryTree.o: CodingPartices/CompeleteBinaryTree.cpp.o
+main.o: main.cpp.o
 
-.PHONY : CodingPartices/CompeleteBinaryTree.o
+.PHONY : main.o
 
 # target to build an object file
-CodingPartices/CompeleteBinaryTree.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/CodingPartices/CompeleteBinaryTree.cpp.o
-.PHONY : CodingPartices/CompeleteBinaryTree.cpp.o
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-CodingPartices/CompeleteBinaryTree.i: CodingPartices/CompeleteBinaryTree.cpp.i
+main.i: main.cpp.i
 
-.PHONY : CodingPartices/CompeleteBinaryTree.i
+.PHONY : main.i
 
 # target to preprocess a source file
-CodingPartices/CompeleteBinaryTree.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/CodingPartices/CompeleteBinaryTree.cpp.i
-.PHONY : CodingPartices/CompeleteBinaryTree.cpp.i
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-CodingPartices/CompeleteBinaryTree.s: CodingPartices/CompeleteBinaryTree.cpp.s
+main.s: main.cpp.s
 
-.PHONY : CodingPartices/CompeleteBinaryTree.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-CodingPartices/CompeleteBinaryTree.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/CodingPartices/CompeleteBinaryTree.cpp.s
-.PHONY : CodingPartices/CompeleteBinaryTree.cpp.s
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -587,9 +587,9 @@ help:
 	@echo "... ExperimentalMemCheck"
 	@echo "... Continuous"
 	@echo "... Experimental"
-	@echo "... CodingPartices/CompeleteBinaryTree.o"
-	@echo "... CodingPartices/CompeleteBinaryTree.i"
-	@echo "... CodingPartices/CompeleteBinaryTree.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

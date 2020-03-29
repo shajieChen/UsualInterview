@@ -1,7 +1,7 @@
 [
 {
   "directory": "/Users/sjcheng/Desktop/腾讯面试/UsualInterview/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++    -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=gnu++14 -o CMakeFiles/main.dir/CodingPartices/CompeleteBinaryTree.cpp.o -c /Users/sjcheng/Desktop/腾讯面试/UsualInterview/CodingPartices/CompeleteBinaryTree.cpp",
-  "file": "/Users/sjcheng/Desktop/腾讯面试/UsualInterview/CodingPartices/CompeleteBinaryTree.cpp"
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++    -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=gnu++14 -o CMakeFiles/main.dir/main.cpp.o -c /Users/sjcheng/Desktop/腾讯面试/UsualInterview/main.cpp",
+  "file": "/Users/sjcheng/Desktop/腾讯面试/UsualInterview/main.cpp"
 }
 ]
