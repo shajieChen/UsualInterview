@@ -520,32 +520,32 @@ Experimental/fast:
 	$(MAKE) -f CMakeFiles/Experimental.dir/build.make CMakeFiles/Experimental.dir/build
 .PHONY : Experimental/fast
 
-算法刷题/P2433_深基1-2_小学数学_N_合一.o: 算法刷题/P2433_深基1-2_小学数学_N_合一.cpp.o
+算法刷题/算法2/P2670_扫雷游戏.o: 算法刷题/算法2/P2670_扫雷游戏.cpp.o
 
-.PHONY : 算法刷题/P2433_深基1-2_小学数学_N_合一.o
+.PHONY : 算法刷题/算法2/P2670_扫雷游戏.o
 
 # target to build an object file
-算法刷题/P2433_深基1-2_小学数学_N_合一.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/P2433_深基1-2_小学数学_N_合一.cpp.o
-.PHONY : 算法刷题/P2433_深基1-2_小学数学_N_合一.cpp.o
+算法刷题/算法2/P2670_扫雷游戏.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/算法2/P2670_扫雷游戏.cpp.o
+.PHONY : 算法刷题/算法2/P2670_扫雷游戏.cpp.o
 
-算法刷题/P2433_深基1-2_小学数学_N_合一.i: 算法刷题/P2433_深基1-2_小学数学_N_合一.cpp.i
+算法刷题/算法2/P2670_扫雷游戏.i: 算法刷题/算法2/P2670_扫雷游戏.cpp.i
 
-.PHONY : 算法刷题/P2433_深基1-2_小学数学_N_合一.i
+.PHONY : 算法刷题/算法2/P2670_扫雷游戏.i
 
 # target to preprocess a source file
-算法刷题/P2433_深基1-2_小学数学_N_合一.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/P2433_深基1-2_小学数学_N_合一.cpp.i
-.PHONY : 算法刷题/P2433_深基1-2_小学数学_N_合一.cpp.i
+算法刷题/算法2/P2670_扫雷游戏.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/算法2/P2670_扫雷游戏.cpp.i
+.PHONY : 算法刷题/算法2/P2670_扫雷游戏.cpp.i
 
-算法刷题/P2433_深基1-2_小学数学_N_合一.s: 算法刷题/P2433_深基1-2_小学数学_N_合一.cpp.s
+算法刷题/算法2/P2670_扫雷游戏.s: 算法刷题/算法2/P2670_扫雷游戏.cpp.s
 
-.PHONY : 算法刷题/P2433_深基1-2_小学数学_N_合一.s
+.PHONY : 算法刷题/算法2/P2670_扫雷游戏.s
 
 # target to generate assembly for a file
-算法刷题/P2433_深基1-2_小学数学_N_合一.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/P2433_深基1-2_小学数学_N_合一.cpp.s
-.PHONY : 算法刷题/P2433_深基1-2_小学数学_N_合一.cpp.s
+算法刷题/算法2/P2670_扫雷游戏.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/算法2/P2670_扫雷游戏.cpp.s
+.PHONY : 算法刷题/算法2/P2670_扫雷游戏.cpp.s
 
 # Help Target
 help:
@@ -587,9 +587,9 @@ help:
 	@echo "... ExperimentalMemCheck"
 	@echo "... Continuous"
 	@echo "... Experimental"
-	@echo "... 算法刷题/P2433_深基1-2_小学数学_N_合一.o"
-	@echo "... 算法刷题/P2433_深基1-2_小学数学_N_合一.i"
-	@echo "... 算法刷题/P2433_深基1-2_小学数学_N_合一.s"
+	@echo "... 算法刷题/算法2/P2670_扫雷游戏.o"
+	@echo "... 算法刷题/算法2/P2670_扫雷游戏.i"
+	@echo "... 算法刷题/算法2/P2670_扫雷游戏.s"
 .PHONY : help
 
 

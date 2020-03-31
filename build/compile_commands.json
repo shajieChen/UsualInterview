@@ -1,7 +1,7 @@
 [
 {
   "directory": "/Users/sjcheng/Desktop/腾讯面试/UsualInterview/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++    -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=gnu++14 -o CMakeFiles/main.dir/算法刷题/P2433_深基1-2_小学数学_N_合一.cpp.o -c /Users/sjcheng/Desktop/腾讯面试/UsualInterview/算法刷题/P2433_深基1-2_小学数学_N_合一.cpp",
-  "file": "/Users/sjcheng/Desktop/腾讯面试/UsualInterview/算法刷题/P2433_深基1-2_小学数学_N_合一.cpp"
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++    -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=gnu++14 -o CMakeFiles/main.dir/算法刷题/算法2/P2670_扫雷游戏.cpp.o -c /Users/sjcheng/Desktop/腾讯面试/UsualInterview/算法刷题/算法2/P2670_扫雷游戏.cpp",
+  "file": "/Users/sjcheng/Desktop/腾讯面试/UsualInterview/算法刷题/算法2/P2670_扫雷游戏.cpp"
 }
 ]

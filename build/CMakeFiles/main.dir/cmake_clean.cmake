@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/算法刷题/P2433_深基1-2_小学数学_N_合一.cpp.o"
+  "CMakeFiles/main.dir/算法刷题/算法2/P2670_扫雷游戏.cpp.o"
   "main"
   "main.pdb"
 )
