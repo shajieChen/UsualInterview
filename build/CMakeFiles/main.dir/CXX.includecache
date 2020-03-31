@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/sjcheng/Desktop/腾讯面试/UsualInterview/main.cpp
+/Users/sjcheng/Desktop/腾讯面试/UsualInterview/算法刷题/P2433_深基1-2_小学数学_N_合一.cpp
 iostream
+-
+algorithm
+-
+cstdio
 -
 

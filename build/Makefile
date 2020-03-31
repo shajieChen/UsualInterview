@@ -520,32 +520,32 @@ Experimental/fast:
 	$(MAKE) -f CMakeFiles/Experimental.dir/build.make CMakeFiles/Experimental.dir/build
 .PHONY : Experimental/fast
 
-main.o: main.cpp.o
+算法刷题/P2433_深基1-2_小学数学_N_合一.o: 算法刷题/P2433_深基1-2_小学数学_N_合一.cpp.o
 
-.PHONY : main.o
+.PHONY : 算法刷题/P2433_深基1-2_小学数学_N_合一.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
-.PHONY : main.cpp.o
+算法刷题/P2433_深基1-2_小学数学_N_合一.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/P2433_深基1-2_小学数学_N_合一.cpp.o
+.PHONY : 算法刷题/P2433_深基1-2_小学数学_N_合一.cpp.o
 
-main.i: main.cpp.i
+算法刷题/P2433_深基1-2_小学数学_N_合一.i: 算法刷题/P2433_深基1-2_小学数学_N_合一.cpp.i
 
-.PHONY : main.i
+.PHONY : 算法刷题/P2433_深基1-2_小学数学_N_合一.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
-.PHONY : main.cpp.i
+算法刷题/P2433_深基1-2_小学数学_N_合一.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/P2433_深基1-2_小学数学_N_合一.cpp.i
+.PHONY : 算法刷题/P2433_深基1-2_小学数学_N_合一.cpp.i
 
-main.s: main.cpp.s
+算法刷题/P2433_深基1-2_小学数学_N_合一.s: 算法刷题/P2433_深基1-2_小学数学_N_合一.cpp.s
 
-.PHONY : main.s
+.PHONY : 算法刷题/P2433_深基1-2_小学数学_N_合一.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
-.PHONY : main.cpp.s
+算法刷题/P2433_深基1-2_小学数学_N_合一.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/P2433_深基1-2_小学数学_N_合一.cpp.s
+.PHONY : 算法刷题/P2433_深基1-2_小学数学_N_合一.cpp.s
 
 # Help Target
 help:
@@ -587,9 +587,9 @@ help:
 	@echo "... ExperimentalMemCheck"
 	@echo "... Continuous"
 	@echo "... Experimental"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... 算法刷题/P2433_深基1-2_小学数学_N_合一.o"
+	@echo "... 算法刷题/P2433_深基1-2_小学数学_N_合一.i"
+	@echo "... 算法刷题/P2433_深基1-2_小学数学_N_合一.s"
 .PHONY : help
 
 
