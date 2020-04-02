@@ -520,32 +520,32 @@ Experimental/fast:
 	$(MAKE) -f CMakeFiles/Experimental.dir/build.make CMakeFiles/Experimental.dir/build
 .PHONY : Experimental/fast
 
-算法刷题/算法2/P2670_扫雷游戏.o: 算法刷题/算法2/P2670_扫雷游戏.cpp.o
+算法刷题/排序练习/P1177_模板_快速排序.o: 算法刷题/排序练习/P1177_模板_快速排序.cpp.o
 
-.PHONY : 算法刷题/算法2/P2670_扫雷游戏.o
+.PHONY : 算法刷题/排序练习/P1177_模板_快速排序.o
 
 # target to build an object file
-算法刷题/算法2/P2670_扫雷游戏.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/算法2/P2670_扫雷游戏.cpp.o
-.PHONY : 算法刷题/算法2/P2670_扫雷游戏.cpp.o
+算法刷题/排序练习/P1177_模板_快速排序.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P1177_模板_快速排序.cpp.o
+.PHONY : 算法刷题/排序练习/P1177_模板_快速排序.cpp.o
 
-算法刷题/算法2/P2670_扫雷游戏.i: 算法刷题/算法2/P2670_扫雷游戏.cpp.i
+算法刷题/排序练习/P1177_模板_快速排序.i: 算法刷题/排序练习/P1177_模板_快速排序.cpp.i
 
-.PHONY : 算法刷题/算法2/P2670_扫雷游戏.i
+.PHONY : 算法刷题/排序练习/P1177_模板_快速排序.i
 
 # target to preprocess a source file
-算法刷题/算法2/P2670_扫雷游戏.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/算法2/P2670_扫雷游戏.cpp.i
-.PHONY : 算法刷题/算法2/P2670_扫雷游戏.cpp.i
+算法刷题/排序练习/P1177_模板_快速排序.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P1177_模板_快速排序.cpp.i
+.PHONY : 算法刷题/排序练习/P1177_模板_快速排序.cpp.i
 
-算法刷题/算法2/P2670_扫雷游戏.s: 算法刷题/算法2/P2670_扫雷游戏.cpp.s
+算法刷题/排序练习/P1177_模板_快速排序.s: 算法刷题/排序练习/P1177_模板_快速排序.cpp.s
 
-.PHONY : 算法刷题/算法2/P2670_扫雷游戏.s
+.PHONY : 算法刷题/排序练习/P1177_模板_快速排序.s
 
 # target to generate assembly for a file
-算法刷题/算法2/P2670_扫雷游戏.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/算法2/P2670_扫雷游戏.cpp.s
-.PHONY : 算法刷题/算法2/P2670_扫雷游戏.cpp.s
+算法刷题/排序练习/P1177_模板_快速排序.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P1177_模板_快速排序.cpp.s
+.PHONY : 算法刷题/排序练习/P1177_模板_快速排序.cpp.s
 
 # Help Target
 help:
@@ -587,9 +587,9 @@ help:
 	@echo "... ExperimentalMemCheck"
 	@echo "... Continuous"
 	@echo "... Experimental"
-	@echo "... 算法刷题/算法2/P2670_扫雷游戏.o"
-	@echo "... 算法刷题/算法2/P2670_扫雷游戏.i"
-	@echo "... 算法刷题/算法2/P2670_扫雷游戏.s"
+	@echo "... 算法刷题/排序练习/P1177_模板_快速排序.o"
+	@echo "... 算法刷题/排序练习/P1177_模板_快速排序.i"
+	@echo "... 算法刷题/排序练习/P1177_模板_快速排序.s"
 .PHONY : help
 
 
