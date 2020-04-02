@@ -74,7 +74,8 @@
         "bit": "cpp",
         "*.tcc": "cpp",
         "memory_resource": "cpp",
-        "cinttypes": "cpp"
+        "cinttypes": "cpp",
+        "set": "cpp"
     },
     "C_Cpp.default.configurationProvider": "vector-of-bool.cmake-tools",
     "C_Cpp.errorSquiggles": "Disabled"

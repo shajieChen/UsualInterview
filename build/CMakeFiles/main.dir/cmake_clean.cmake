@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/算法刷题/排序练习/P1923_深基9.例4_求第_k_小的数2.cpp.o"
+  "CMakeFiles/main.dir/算法刷题/排序练习/P1059_明明的随机数.cpp.o"
   "main"
   "main.pdb"
 )
