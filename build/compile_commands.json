@@ -1,7 +1,7 @@
 [
 {
   "directory": "/Users/sjcheng/Desktop/腾讯面试/UsualInterview/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++    -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=gnu++14 -o CMakeFiles/main.dir/算法刷题/排序练习/P1177_模板_快速排序.cpp.o -c /Users/sjcheng/Desktop/腾讯面试/UsualInterview/算法刷题/排序练习/P1177_模板_快速排序.cpp",
-  "file": "/Users/sjcheng/Desktop/腾讯面试/UsualInterview/算法刷题/排序练习/P1177_模板_快速排序.cpp"
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++    -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=gnu++14 -o CMakeFiles/main.dir/算法刷题/排序练习/P1923_深基9.例4_求第_k_小的数2.cpp.o -c /Users/sjcheng/Desktop/腾讯面试/UsualInterview/算法刷题/排序练习/P1923_深基9.例4_求第_k_小的数2.cpp",
+  "file": "/Users/sjcheng/Desktop/腾讯面试/UsualInterview/算法刷题/排序练习/P1923_深基9.例4_求第_k_小的数2.cpp"
 }
 ]

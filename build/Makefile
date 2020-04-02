@@ -520,32 +520,32 @@ Experimental/fast:
 	$(MAKE) -f CMakeFiles/Experimental.dir/build.make CMakeFiles/Experimental.dir/build
 .PHONY : Experimental/fast
 
-算法刷题/排序练习/P1177_模板_快速排序.o: 算法刷题/排序练习/P1177_模板_快速排序.cpp.o
+算法刷题/排序练习/P1923_深基9.例4_求第_k_小的数2.o: 算法刷题/排序练习/P1923_深基9.例4_求第_k_小的数2.cpp.o
 
-.PHONY : 算法刷题/排序练习/P1177_模板_快速排序.o
+.PHONY : 算法刷题/排序练习/P1923_深基9.例4_求第_k_小的数2.o
 
 # target to build an object file
-算法刷题/排序练习/P1177_模板_快速排序.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P1177_模板_快速排序.cpp.o
-.PHONY : 算法刷题/排序练习/P1177_模板_快速排序.cpp.o
+算法刷题/排序练习/P1923_深基9.例4_求第_k_小的数2.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P1923_深基9.例4_求第_k_小的数2.cpp.o
+.PHONY : 算法刷题/排序练习/P1923_深基9.例4_求第_k_小的数2.cpp.o
 
-算法刷题/排序练习/P1177_模板_快速排序.i: 算法刷题/排序练习/P1177_模板_快速排序.cpp.i
+算法刷题/排序练习/P1923_深基9.例4_求第_k_小的数2.i: 算法刷题/排序练习/P1923_深基9.例4_求第_k_小的数2.cpp.i
 
-.PHONY : 算法刷题/排序练习/P1177_模板_快速排序.i
+.PHONY : 算法刷题/排序练习/P1923_深基9.例4_求第_k_小的数2.i
 
 # target to preprocess a source file
-算法刷题/排序练习/P1177_模板_快速排序.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P1177_模板_快速排序.cpp.i
-.PHONY : 算法刷题/排序练习/P1177_模板_快速排序.cpp.i
+算法刷题/排序练习/P1923_深基9.例4_求第_k_小的数2.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P1923_深基9.例4_求第_k_小的数2.cpp.i
+.PHONY : 算法刷题/排序练习/P1923_深基9.例4_求第_k_小的数2.cpp.i
 
-算法刷题/排序练习/P1177_模板_快速排序.s: 算法刷题/排序练习/P1177_模板_快速排序.cpp.s
+算法刷题/排序练习/P1923_深基9.例4_求第_k_小的数2.s: 算法刷题/排序练习/P1923_深基9.例4_求第_k_小的数2.cpp.s
 
-.PHONY : 算法刷题/排序练习/P1177_模板_快速排序.s
+.PHONY : 算法刷题/排序练习/P1923_深基9.例4_求第_k_小的数2.s
 
 # target to generate assembly for a file
-算法刷题/排序练习/P1177_模板_快速排序.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P1177_模板_快速排序.cpp.s
-.PHONY : 算法刷题/排序练习/P1177_模板_快速排序.cpp.s
+算法刷题/排序练习/P1923_深基9.例4_求第_k_小的数2.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P1923_深基9.例4_求第_k_小的数2.cpp.s
+.PHONY : 算法刷题/排序练习/P1923_深基9.例4_求第_k_小的数2.cpp.s
 
 # Help Target
 help:
@@ -587,9 +587,9 @@ help:
 	@echo "... ExperimentalMemCheck"
 	@echo "... Continuous"
 	@echo "... Experimental"
-	@echo "... 算法刷题/排序练习/P1177_模板_快速排序.o"
-	@echo "... 算法刷题/排序练习/P1177_模板_快速排序.i"
-	@echo "... 算法刷题/排序练习/P1177_模板_快速排序.s"
+	@echo "... 算法刷题/排序练习/P1923_深基9.例4_求第_k_小的数2.o"
+	@echo "... 算法刷题/排序练习/P1923_深基9.例4_求第_k_小的数2.i"
+	@echo "... 算法刷题/排序练习/P1923_深基9.例4_求第_k_小的数2.s"
 .PHONY : help
 
 
