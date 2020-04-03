@@ -5,7 +5,7 @@ project(main VERSION 0.1.0)
 include(CTest)
 enable_testing()
 
-add_executable(main 算法刷题/排序练习/P1059_明明的随机数.cpp)
+add_executable(main 算法刷题/排序练习/P1093_奖学金.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})

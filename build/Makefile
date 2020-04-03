@@ -520,32 +520,32 @@ Experimental/fast:
 	$(MAKE) -f CMakeFiles/Experimental.dir/build.make CMakeFiles/Experimental.dir/build
 .PHONY : Experimental/fast
 
-算法刷题/排序练习/P1059_明明的随机数.o: 算法刷题/排序练习/P1059_明明的随机数.cpp.o
+算法刷题/排序练习/P1093_奖学金.o: 算法刷题/排序练习/P1093_奖学金.cpp.o
 
-.PHONY : 算法刷题/排序练习/P1059_明明的随机数.o
+.PHONY : 算法刷题/排序练习/P1093_奖学金.o
 
 # target to build an object file
-算法刷题/排序练习/P1059_明明的随机数.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P1059_明明的随机数.cpp.o
-.PHONY : 算法刷题/排序练习/P1059_明明的随机数.cpp.o
+算法刷题/排序练习/P1093_奖学金.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P1093_奖学金.cpp.o
+.PHONY : 算法刷题/排序练习/P1093_奖学金.cpp.o
 
-算法刷题/排序练习/P1059_明明的随机数.i: 算法刷题/排序练习/P1059_明明的随机数.cpp.i
+算法刷题/排序练习/P1093_奖学金.i: 算法刷题/排序练习/P1093_奖学金.cpp.i
 
-.PHONY : 算法刷题/排序练习/P1059_明明的随机数.i
+.PHONY : 算法刷题/排序练习/P1093_奖学金.i
 
 # target to preprocess a source file
-算法刷题/排序练习/P1059_明明的随机数.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P1059_明明的随机数.cpp.i
-.PHONY : 算法刷题/排序练习/P1059_明明的随机数.cpp.i
+算法刷题/排序练习/P1093_奖学金.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P1093_奖学金.cpp.i
+.PHONY : 算法刷题/排序练习/P1093_奖学金.cpp.i
 
-算法刷题/排序练习/P1059_明明的随机数.s: 算法刷题/排序练习/P1059_明明的随机数.cpp.s
+算法刷题/排序练习/P1093_奖学金.s: 算法刷题/排序练习/P1093_奖学金.cpp.s
 
-.PHONY : 算法刷题/排序练习/P1059_明明的随机数.s
+.PHONY : 算法刷题/排序练习/P1093_奖学金.s
 
 # target to generate assembly for a file
-算法刷题/排序练习/P1059_明明的随机数.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P1059_明明的随机数.cpp.s
-.PHONY : 算法刷题/排序练习/P1059_明明的随机数.cpp.s
+算法刷题/排序练习/P1093_奖学金.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P1093_奖学金.cpp.s
+.PHONY : 算法刷题/排序练习/P1093_奖学金.cpp.s
 
 # Help Target
 help:
@@ -587,9 +587,9 @@ help:
 	@echo "... ExperimentalMemCheck"
 	@echo "... Continuous"
 	@echo "... Experimental"
-	@echo "... 算法刷题/排序练习/P1059_明明的随机数.o"
-	@echo "... 算法刷题/排序练习/P1059_明明的随机数.i"
-	@echo "... 算法刷题/排序练习/P1059_明明的随机数.s"
+	@echo "... 算法刷题/排序练习/P1093_奖学金.o"
+	@echo "... 算法刷题/排序练习/P1093_奖学金.i"
+	@echo "... 算法刷题/排序练习/P1093_奖学金.s"
 .PHONY : help
 
 
