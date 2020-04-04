@@ -520,32 +520,32 @@ Experimental/fast:
 	$(MAKE) -f CMakeFiles/Experimental.dir/build.make CMakeFiles/Experimental.dir/build
 .PHONY : Experimental/fast
 
-算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.o: 算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.cpp.o
+tset.o: tset.cpp.o
 
-.PHONY : 算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.o
+.PHONY : tset.o
 
 # target to build an object file
-算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.cpp.o
-.PHONY : 算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.cpp.o
+tset.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/tset.cpp.o
+.PHONY : tset.cpp.o
 
-算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.i: 算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.cpp.i
+tset.i: tset.cpp.i
 
-.PHONY : 算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.i
+.PHONY : tset.i
 
 # target to preprocess a source file
-算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.cpp.i
-.PHONY : 算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.cpp.i
+tset.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/tset.cpp.i
+.PHONY : tset.cpp.i
 
-算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.s: 算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.cpp.s
+tset.s: tset.cpp.s
 
-.PHONY : 算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.s
+.PHONY : tset.s
 
 # target to generate assembly for a file
-算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.cpp.s
-.PHONY : 算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.cpp.s
+tset.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/tset.cpp.s
+.PHONY : tset.cpp.s
 
 # Help Target
 help:
@@ -587,9 +587,9 @@ help:
 	@echo "... ExperimentalMemCheck"
 	@echo "... Continuous"
 	@echo "... Experimental"
-	@echo "... 算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.o"
-	@echo "... 算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.i"
-	@echo "... 算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.s"
+	@echo "... tset.o"
+	@echo "... tset.i"
+	@echo "... tset.s"
 .PHONY : help
 
 

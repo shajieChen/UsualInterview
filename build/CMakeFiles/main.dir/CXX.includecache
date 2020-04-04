@@ -6,11 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/sjcheng/Desktop/腾讯面试/UsualInterview/算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.cpp
+/Users/sjcheng/Desktop/腾讯面试/UsualInterview/tset.cpp
 iostream
--
-vector
--
-algorithm
 -
 
