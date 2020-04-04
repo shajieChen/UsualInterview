@@ -7,6 +7,19 @@
 #include <set>
 using namespace std;  
 
+
+
+template <typename T>
+void PrintVector(std::vector<T> in_vecotr)
+{
+    auto it = in_vecotr.begin() ; 
+    for(;it != in_vecotr.end(); it++)
+    {
+        std::cout << *it << " " ; 
+    }
+    std::cout << std::endl; 
+}
+ 
 void PrintVector(std::vector<int> in_vecotr)
 {
     std::vector<int>::iterator it = in_vecotr.begin() ; 
@@ -26,12 +39,4 @@ void PrintSet(const std::set<T> printedSet)
         std::cout << *it << ' ' ; 
     }   
     std::cout <<std::endl; 
-} 
-
-
-
-int main(int argc, char const *argv[])
-{  
- 
-    return 0 ;  
-}
+}  

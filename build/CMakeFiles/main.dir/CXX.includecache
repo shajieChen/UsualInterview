@@ -6,13 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/sjcheng/Desktop/腾讯面试/UsualInterview/算法刷题/排序练习/P1093_奖学金.cpp
+/Users/sjcheng/Desktop/腾讯面试/UsualInterview/算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.cpp
 iostream
 -
 vector
 -
 algorithm
--
-sstream
 -
 

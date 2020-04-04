@@ -520,32 +520,32 @@ Experimental/fast:
 	$(MAKE) -f CMakeFiles/Experimental.dir/build.make CMakeFiles/Experimental.dir/build
 .PHONY : Experimental/fast
 
-算法刷题/排序练习/P1093_奖学金.o: 算法刷题/排序练习/P1093_奖学金.cpp.o
+算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.o: 算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.cpp.o
 
-.PHONY : 算法刷题/排序练习/P1093_奖学金.o
+.PHONY : 算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.o
 
 # target to build an object file
-算法刷题/排序练习/P1093_奖学金.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P1093_奖学金.cpp.o
-.PHONY : 算法刷题/排序练习/P1093_奖学金.cpp.o
+算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.cpp.o
+.PHONY : 算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.cpp.o
 
-算法刷题/排序练习/P1093_奖学金.i: 算法刷题/排序练习/P1093_奖学金.cpp.i
+算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.i: 算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.cpp.i
 
-.PHONY : 算法刷题/排序练习/P1093_奖学金.i
+.PHONY : 算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.i
 
 # target to preprocess a source file
-算法刷题/排序练习/P1093_奖学金.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P1093_奖学金.cpp.i
-.PHONY : 算法刷题/排序练习/P1093_奖学金.cpp.i
+算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.cpp.i
+.PHONY : 算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.cpp.i
 
-算法刷题/排序练习/P1093_奖学金.s: 算法刷题/排序练习/P1093_奖学金.cpp.s
+算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.s: 算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.cpp.s
 
-.PHONY : 算法刷题/排序练习/P1093_奖学金.s
+.PHONY : 算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.s
 
 # target to generate assembly for a file
-算法刷题/排序练习/P1093_奖学金.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P1093_奖学金.cpp.s
-.PHONY : 算法刷题/排序练习/P1093_奖学金.cpp.s
+算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.cpp.s
+.PHONY : 算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.cpp.s
 
 # Help Target
 help:
@@ -587,9 +587,9 @@ help:
 	@echo "... ExperimentalMemCheck"
 	@echo "... Continuous"
 	@echo "... Experimental"
-	@echo "... 算法刷题/排序练习/P1093_奖学金.o"
-	@echo "... 算法刷题/排序练习/P1093_奖学金.i"
-	@echo "... 算法刷题/排序练习/P1093_奖学金.s"
+	@echo "... 算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.o"
+	@echo "... 算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.i"
+	@echo "... 算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.s"
 .PHONY : help
 
 
