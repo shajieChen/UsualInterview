@@ -520,32 +520,32 @@ Experimental/fast:
 	$(MAKE) -f CMakeFiles/Experimental.dir/build.make CMakeFiles/Experimental.dir/build
 .PHONY : Experimental/fast
 
-算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.o: 算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.cpp.o
+算法刷题/排序练习/P1116_车厢重组.o: 算法刷题/排序练习/P1116_车厢重组.cpp.o
 
-.PHONY : 算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.o
+.PHONY : 算法刷题/排序练习/P1116_车厢重组.o
 
 # target to build an object file
-算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.cpp.o
-.PHONY : 算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.cpp.o
+算法刷题/排序练习/P1116_车厢重组.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P1116_车厢重组.cpp.o
+.PHONY : 算法刷题/排序练习/P1116_车厢重组.cpp.o
 
-算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.i: 算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.cpp.i
+算法刷题/排序练习/P1116_车厢重组.i: 算法刷题/排序练习/P1116_车厢重组.cpp.i
 
-.PHONY : 算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.i
+.PHONY : 算法刷题/排序练习/P1116_车厢重组.i
 
 # target to preprocess a source file
-算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.cpp.i
-.PHONY : 算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.cpp.i
+算法刷题/排序练习/P1116_车厢重组.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P1116_车厢重组.cpp.i
+.PHONY : 算法刷题/排序练习/P1116_车厢重组.cpp.i
 
-算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.s: 算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.cpp.s
+算法刷题/排序练习/P1116_车厢重组.s: 算法刷题/排序练习/P1116_车厢重组.cpp.s
 
-.PHONY : 算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.s
+.PHONY : 算法刷题/排序练习/P1116_车厢重组.s
 
 # target to generate assembly for a file
-算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.cpp.s
-.PHONY : 算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.cpp.s
+算法刷题/排序练习/P1116_车厢重组.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P1116_车厢重组.cpp.s
+.PHONY : 算法刷题/排序练习/P1116_车厢重组.cpp.s
 
 # Help Target
 help:
@@ -587,9 +587,9 @@ help:
 	@echo "... ExperimentalMemCheck"
 	@echo "... Continuous"
 	@echo "... Experimental"
-	@echo "... 算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.o"
-	@echo "... 算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.i"
-	@echo "... 算法刷题/排序练习/P2676_[USACO07DEC]Bookshelf_B.s"
+	@echo "... 算法刷题/排序练习/P1116_车厢重组.o"
+	@echo "... 算法刷题/排序练习/P1116_车厢重组.i"
+	@echo "... 算法刷题/排序练习/P1116_车厢重组.s"
 .PHONY : help
 
 
