@@ -520,32 +520,32 @@ Experimental/fast:
 	$(MAKE) -f CMakeFiles/Experimental.dir/build.make CMakeFiles/Experimental.dir/build
 .PHONY : Experimental/fast
 
-算法刷题/排序练习/P1116_车厢重组.o: 算法刷题/排序练习/P1116_车厢重组.cpp.o
+算法刷题/排序练习/P1152_欢乐的跳.o: 算法刷题/排序练习/P1152_欢乐的跳.cpp.o
 
-.PHONY : 算法刷题/排序练习/P1116_车厢重组.o
+.PHONY : 算法刷题/排序练习/P1152_欢乐的跳.o
 
 # target to build an object file
-算法刷题/排序练习/P1116_车厢重组.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P1116_车厢重组.cpp.o
-.PHONY : 算法刷题/排序练习/P1116_车厢重组.cpp.o
+算法刷题/排序练习/P1152_欢乐的跳.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P1152_欢乐的跳.cpp.o
+.PHONY : 算法刷题/排序练习/P1152_欢乐的跳.cpp.o
 
-算法刷题/排序练习/P1116_车厢重组.i: 算法刷题/排序练习/P1116_车厢重组.cpp.i
+算法刷题/排序练习/P1152_欢乐的跳.i: 算法刷题/排序练习/P1152_欢乐的跳.cpp.i
 
-.PHONY : 算法刷题/排序练习/P1116_车厢重组.i
+.PHONY : 算法刷题/排序练习/P1152_欢乐的跳.i
 
 # target to preprocess a source file
-算法刷题/排序练习/P1116_车厢重组.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P1116_车厢重组.cpp.i
-.PHONY : 算法刷题/排序练习/P1116_车厢重组.cpp.i
+算法刷题/排序练习/P1152_欢乐的跳.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P1152_欢乐的跳.cpp.i
+.PHONY : 算法刷题/排序练习/P1152_欢乐的跳.cpp.i
 
-算法刷题/排序练习/P1116_车厢重组.s: 算法刷题/排序练习/P1116_车厢重组.cpp.s
+算法刷题/排序练习/P1152_欢乐的跳.s: 算法刷题/排序练习/P1152_欢乐的跳.cpp.s
 
-.PHONY : 算法刷题/排序练习/P1116_车厢重组.s
+.PHONY : 算法刷题/排序练习/P1152_欢乐的跳.s
 
 # target to generate assembly for a file
-算法刷题/排序练习/P1116_车厢重组.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P1116_车厢重组.cpp.s
-.PHONY : 算法刷题/排序练习/P1116_车厢重组.cpp.s
+算法刷题/排序练习/P1152_欢乐的跳.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P1152_欢乐的跳.cpp.s
+.PHONY : 算法刷题/排序练习/P1152_欢乐的跳.cpp.s
 
 # Help Target
 help:
@@ -587,9 +587,9 @@ help:
 	@echo "... ExperimentalMemCheck"
 	@echo "... Continuous"
 	@echo "... Experimental"
-	@echo "... 算法刷题/排序练习/P1116_车厢重组.o"
-	@echo "... 算法刷题/排序练习/P1116_车厢重组.i"
-	@echo "... 算法刷题/排序练习/P1116_车厢重组.s"
+	@echo "... 算法刷题/排序练习/P1152_欢乐的跳.o"
+	@echo "... 算法刷题/排序练习/P1152_欢乐的跳.i"
+	@echo "... 算法刷题/排序练习/P1152_欢乐的跳.s"
 .PHONY : help
 
 
