@@ -6,10 +6,14 @@
 
 #IncludeRegexTransform: 
 
-/Users/sjcheng/Desktop/腾讯面试/UsualInterview/算法刷题/排序练习/P1152_欢乐的跳.cpp
+/Users/sjcheng/Desktop/腾讯面试/UsualInterview/算法刷题/排序练习/P5143_攀爬者.cpp
 iostream
 -
 vector
+-
+stdio.h
+-
+cmath
 -
 algorithm
 -
