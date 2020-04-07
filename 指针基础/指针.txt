@@ -1,0 +1,108 @@
+　https://blog.csdn.net/xinrui_z/article/details/105048591
+
+char * const p;
+　　char const * p
+　　const char *p
+
+上述三个有什么区别？
+
+char * const p; //常量指针，p的值不可以修改
+　　char const * p；//指向常量的指针，指向的常量值不可以改
+　　const char *p； //和char const *p
+技巧： const 后面是谁 谁就不能够更改
+
+2.　char str1[] = “abc”;
+　　char str2[] = “abc”;
+
+const char str3[] = “abc”;
+　　const char str4[] = “abc”;
+
+const char *str5 = “abc”;
+　　const char *str6 = “abc”;
+
+char *str7 = “abc”;
+　　char *str8 = “abc”;
+
+cout << ( str1 == str2 ) << endl;
+　　cout << ( str3 == str4 ) << endl;
+　　cout << ( str5 == str6 ) << endl;
+
+cout << ( str7 == str8 ) << endl;
+
+打印结果是什么？
+
+解答：结果是：0 0 1 1
+str1,str2,str3,str4是数组变量，它们有各自的内存空间；而str5,str6,str7,str8是指针，它们指向相同的常量区域
+
+void UpperCase( char str[] ) // 将 str 中的小写字母转换成大写字母
+　　{
+　　for( size_t i=0; i<sizeof(str)/sizeof(str[0]); ++i )
+　if( ‘a’<=str[i] && str[i]<=‘z’ )
+str[i] -= (‘a’-‘A’ );
+　　}
+
+char str[] = “aBcDe”;
+　　cout << "str字符长度为: " << sizeof(str)/sizeof(str[0]) << endl;
+　　UpperCase( str );
+　　cout << str << endl;
+
+答：函数内的sizeof有问题。
+根据语法，sizeof如用于数组，只能测出静态数组的大小，无法检测动态分配的或外部数组大小。
+函数外的str是一个静态定义的数组，因此其大小为6，
+函数内的str实际只是一个指向字符串的指针，没有任何额外的与数组相关的信息，因此sizeof作用于上只将其当指针看，一个指针为4个字节，因此返回4。
+
+3 在C++程序中调用被C编译器编译后的函数，为什么要加extern“C”声明？ 
+
+答：因为C语言  或  C++语言的编译规则不一样，所以要告诉系统哪些函数时 C 方式 编译，哪些函数需要用C++方式编译，
+
+   如果不加exctern “C” 系统会提示找不到此函数。
+
+ 
+
+4 求sizeof。
+
+      
+
+       struct 
+
+       {
+
+              short a1;
+
+              short a2;
+
+       }A;
+
+       struct 
+
+       {
+
+              long b1;
+
+              short b2;
+
+       }B;
+
+       char data[100];
+
+       int test[100];
+
+       char* pstr="abcdefghij";
+
+       char* str="a\n";
+
+ 
+
+       cout<<sizeof(A)<<endl;             // 4
+
+       cout<<sizeof(B)<<endl;             // 8
+
+       cout<<sizeof(data)<<endl;  // 100
+
+       cout<<sizeof(test)<<endl;          // 400
+
+       cout<<sizeof(pstr)<<endl;   // 4
+
+       cout<<sizeof(str)<<endl;            // 4
+
+ 

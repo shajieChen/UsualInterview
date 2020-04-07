@@ -1,0 +1,20 @@
+其他基础：
+    Internet网络通信的工作分为7层，由低到高分别是：
+
+        物理层(Physical Layer),
+
+        数据链路层(Data Link Layer)
+
+        ,网络层(Network Layer),
+
+         
+
+        传输层(Transport Layer),
+
+        会话层(Session Layer),
+
+        表示层(Presen tation Layer),
+
+        应用层(Application Layer)
+
+        

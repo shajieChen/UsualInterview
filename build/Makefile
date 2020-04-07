@@ -520,32 +520,32 @@ Experimental/fast:
 	$(MAKE) -f CMakeFiles/Experimental.dir/build.make CMakeFiles/Experimental.dir/build
 .PHONY : Experimental/fast
 
-算法刷题/排序练习/P1012_拼数.o: 算法刷题/排序练习/P1012_拼数.cpp.o
+test.o: test.cpp.o
 
-.PHONY : 算法刷题/排序练习/P1012_拼数.o
+.PHONY : test.o
 
 # target to build an object file
-算法刷题/排序练习/P1012_拼数.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P1012_拼数.cpp.o
-.PHONY : 算法刷题/排序练习/P1012_拼数.cpp.o
+test.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/test.cpp.o
+.PHONY : test.cpp.o
 
-算法刷题/排序练习/P1012_拼数.i: 算法刷题/排序练习/P1012_拼数.cpp.i
+test.i: test.cpp.i
 
-.PHONY : 算法刷题/排序练习/P1012_拼数.i
+.PHONY : test.i
 
 # target to preprocess a source file
-算法刷题/排序练习/P1012_拼数.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P1012_拼数.cpp.i
-.PHONY : 算法刷题/排序练习/P1012_拼数.cpp.i
+test.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/test.cpp.i
+.PHONY : test.cpp.i
 
-算法刷题/排序练习/P1012_拼数.s: 算法刷题/排序练习/P1012_拼数.cpp.s
+test.s: test.cpp.s
 
-.PHONY : 算法刷题/排序练习/P1012_拼数.s
+.PHONY : test.s
 
 # target to generate assembly for a file
-算法刷题/排序练习/P1012_拼数.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P1012_拼数.cpp.s
-.PHONY : 算法刷题/排序练习/P1012_拼数.cpp.s
+test.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/test.cpp.s
+.PHONY : test.cpp.s
 
 # Help Target
 help:
@@ -587,9 +587,9 @@ help:
 	@echo "... ExperimentalMemCheck"
 	@echo "... Continuous"
 	@echo "... Experimental"
-	@echo "... 算法刷题/排序练习/P1012_拼数.o"
-	@echo "... 算法刷题/排序练习/P1012_拼数.i"
-	@echo "... 算法刷题/排序练习/P1012_拼数.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 .PHONY : help
 
 
