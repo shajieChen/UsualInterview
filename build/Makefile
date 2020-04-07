@@ -520,32 +520,32 @@ Experimental/fast:
 	$(MAKE) -f CMakeFiles/Experimental.dir/build.make CMakeFiles/Experimental.dir/build
 .PHONY : Experimental/fast
 
-算法刷题/排序练习/P5143_攀爬者.o: 算法刷题/排序练习/P5143_攀爬者.cpp.o
+算法刷题/排序练习/P1012_拼数.o: 算法刷题/排序练习/P1012_拼数.cpp.o
 
-.PHONY : 算法刷题/排序练习/P5143_攀爬者.o
+.PHONY : 算法刷题/排序练习/P1012_拼数.o
 
 # target to build an object file
-算法刷题/排序练习/P5143_攀爬者.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P5143_攀爬者.cpp.o
-.PHONY : 算法刷题/排序练习/P5143_攀爬者.cpp.o
+算法刷题/排序练习/P1012_拼数.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P1012_拼数.cpp.o
+.PHONY : 算法刷题/排序练习/P1012_拼数.cpp.o
 
-算法刷题/排序练习/P5143_攀爬者.i: 算法刷题/排序练习/P5143_攀爬者.cpp.i
+算法刷题/排序练习/P1012_拼数.i: 算法刷题/排序练习/P1012_拼数.cpp.i
 
-.PHONY : 算法刷题/排序练习/P5143_攀爬者.i
+.PHONY : 算法刷题/排序练习/P1012_拼数.i
 
 # target to preprocess a source file
-算法刷题/排序练习/P5143_攀爬者.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P5143_攀爬者.cpp.i
-.PHONY : 算法刷题/排序练习/P5143_攀爬者.cpp.i
+算法刷题/排序练习/P1012_拼数.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P1012_拼数.cpp.i
+.PHONY : 算法刷题/排序练习/P1012_拼数.cpp.i
 
-算法刷题/排序练习/P5143_攀爬者.s: 算法刷题/排序练习/P5143_攀爬者.cpp.s
+算法刷题/排序练习/P1012_拼数.s: 算法刷题/排序练习/P1012_拼数.cpp.s
 
-.PHONY : 算法刷题/排序练习/P5143_攀爬者.s
+.PHONY : 算法刷题/排序练习/P1012_拼数.s
 
 # target to generate assembly for a file
-算法刷题/排序练习/P5143_攀爬者.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P5143_攀爬者.cpp.s
-.PHONY : 算法刷题/排序练习/P5143_攀爬者.cpp.s
+算法刷题/排序练习/P1012_拼数.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/P1012_拼数.cpp.s
+.PHONY : 算法刷题/排序练习/P1012_拼数.cpp.s
 
 # Help Target
 help:
@@ -587,9 +587,9 @@ help:
 	@echo "... ExperimentalMemCheck"
 	@echo "... Continuous"
 	@echo "... Experimental"
-	@echo "... 算法刷题/排序练习/P5143_攀爬者.o"
-	@echo "... 算法刷题/排序练习/P5143_攀爬者.i"
-	@echo "... 算法刷题/排序练习/P5143_攀爬者.s"
+	@echo "... 算法刷题/排序练习/P1012_拼数.o"
+	@echo "... 算法刷题/排序练习/P1012_拼数.i"
+	@echo "... 算法刷题/排序练习/P1012_拼数.s"
 .PHONY : help
 
 
