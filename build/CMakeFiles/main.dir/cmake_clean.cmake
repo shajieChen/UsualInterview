@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/test.cpp.o"
+  "CMakeFiles/main.dir/数据结构刷题/线性表/P3156_深基15.例1_询问学号.cpp.o"
   "main"
   "main.pdb"
 )

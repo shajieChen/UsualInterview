@@ -5,25 +5,43 @@
 #include <vector>
 #include <algorithm>
 #include <cmath> 
-using namespace std;  
-unsigned GetNumberOfDigits (unsigned i)
+using namespace std;   
+ 
+template <typename T>
+void PrintVector(std::vector<T> in_vecotr)
 {
-    return i > 0 ? (int) log10 ((double) i) + 1 : 1;
+    auto it = in_vecotr.begin() ; 
+    for(;it != in_vecotr.end(); it++)
+    {
+        std::cout << *it ; 
+    }
+    std::cout << std::endl; 
 }
-
+bool comp(string a, string b) 
+{
+    if((a + b) > (b + a ))
+    {
+        return true ; 
+    }
+    return false;  
+}
 
 int main(int argc, char const *argv[])
 {  
-    unsigned int n = 0 ;
-    unsigned int iCurUsrInput = 0;
-    std::vector<int> iUsrInputCollection ;  
+    unsigned int n = 0 ; 
+    string szUsrInput ;  
+    std::vector<string> vecStrings  ; 
     cin >> n ;
     /*Get the Usr Input Collection*/ 
     for(int i = 0; i < n ; i++)
     {
-        cin >> iCurUsrInput ; 
-        iUsrInputCollection.push_back(iCurUsrInput);   
+        cin >> szUsrInput; 
+        vecStrings.push_back(szUsrInput); 
     }
+    sort(vecStrings.begin(), vecStrings.end(), comp);
+    PrintVector(vecStrings) ; 
     
+
+
     return 0 ;  
 }

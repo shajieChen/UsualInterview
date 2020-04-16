@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/sjcheng/Desktop/腾讯面试/UsualInterview/test.cpp
+/Users/sjcheng/Desktop/腾讯面试/UsualInterview/数据结构刷题/线性表/P3156_深基15.例1_询问学号.cpp
 iostream
 -
-memory
+vector
+-
+algorithm
 -
 
