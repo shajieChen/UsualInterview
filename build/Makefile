@@ -520,32 +520,32 @@ Experimental/fast:
 	$(MAKE) -f CMakeFiles/Experimental.dir/build.make CMakeFiles/Experimental.dir/build
 .PHONY : Experimental/fast
 
-数据结构刷题/线性表/P3613_深基15.例2_寄包柜.o: 数据结构刷题/线性表/P3613_深基15.例2_寄包柜.cpp.o
+数据结构刷题/线性表/P1449_后缀表达式.o: 数据结构刷题/线性表/P1449_后缀表达式.cpp.o
 
-.PHONY : 数据结构刷题/线性表/P3613_深基15.例2_寄包柜.o
+.PHONY : 数据结构刷题/线性表/P1449_后缀表达式.o
 
 # target to build an object file
-数据结构刷题/线性表/P3613_深基15.例2_寄包柜.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/数据结构刷题/线性表/P3613_深基15.例2_寄包柜.cpp.o
-.PHONY : 数据结构刷题/线性表/P3613_深基15.例2_寄包柜.cpp.o
+数据结构刷题/线性表/P1449_后缀表达式.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/数据结构刷题/线性表/P1449_后缀表达式.cpp.o
+.PHONY : 数据结构刷题/线性表/P1449_后缀表达式.cpp.o
 
-数据结构刷题/线性表/P3613_深基15.例2_寄包柜.i: 数据结构刷题/线性表/P3613_深基15.例2_寄包柜.cpp.i
+数据结构刷题/线性表/P1449_后缀表达式.i: 数据结构刷题/线性表/P1449_后缀表达式.cpp.i
 
-.PHONY : 数据结构刷题/线性表/P3613_深基15.例2_寄包柜.i
+.PHONY : 数据结构刷题/线性表/P1449_后缀表达式.i
 
 # target to preprocess a source file
-数据结构刷题/线性表/P3613_深基15.例2_寄包柜.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/数据结构刷题/线性表/P3613_深基15.例2_寄包柜.cpp.i
-.PHONY : 数据结构刷题/线性表/P3613_深基15.例2_寄包柜.cpp.i
+数据结构刷题/线性表/P1449_后缀表达式.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/数据结构刷题/线性表/P1449_后缀表达式.cpp.i
+.PHONY : 数据结构刷题/线性表/P1449_后缀表达式.cpp.i
 
-数据结构刷题/线性表/P3613_深基15.例2_寄包柜.s: 数据结构刷题/线性表/P3613_深基15.例2_寄包柜.cpp.s
+数据结构刷题/线性表/P1449_后缀表达式.s: 数据结构刷题/线性表/P1449_后缀表达式.cpp.s
 
-.PHONY : 数据结构刷题/线性表/P3613_深基15.例2_寄包柜.s
+.PHONY : 数据结构刷题/线性表/P1449_后缀表达式.s
 
 # target to generate assembly for a file
-数据结构刷题/线性表/P3613_深基15.例2_寄包柜.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/数据结构刷题/线性表/P3613_深基15.例2_寄包柜.cpp.s
-.PHONY : 数据结构刷题/线性表/P3613_深基15.例2_寄包柜.cpp.s
+数据结构刷题/线性表/P1449_后缀表达式.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/数据结构刷题/线性表/P1449_后缀表达式.cpp.s
+.PHONY : 数据结构刷题/线性表/P1449_后缀表达式.cpp.s
 
 # Help Target
 help:
@@ -587,9 +587,9 @@ help:
 	@echo "... ExperimentalMemCheck"
 	@echo "... Continuous"
 	@echo "... Experimental"
-	@echo "... 数据结构刷题/线性表/P3613_深基15.例2_寄包柜.o"
-	@echo "... 数据结构刷题/线性表/P3613_深基15.例2_寄包柜.i"
-	@echo "... 数据结构刷题/线性表/P3613_深基15.例2_寄包柜.s"
+	@echo "... 数据结构刷题/线性表/P1449_后缀表达式.o"
+	@echo "... 数据结构刷题/线性表/P1449_后缀表达式.i"
+	@echo "... 数据结构刷题/线性表/P1449_后缀表达式.s"
 .PHONY : help
 
 

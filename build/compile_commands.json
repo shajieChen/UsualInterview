@@ -1,7 +1,7 @@
 [
 {
   "directory": "/Users/sjcheng/Desktop/腾讯面试/UsualInterview/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++    -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=gnu++14 -o CMakeFiles/main.dir/数据结构刷题/线性表/P3613_深基15.例2_寄包柜.cpp.o -c /Users/sjcheng/Desktop/腾讯面试/UsualInterview/数据结构刷题/线性表/P3613_深基15.例2_寄包柜.cpp",
-  "file": "/Users/sjcheng/Desktop/腾讯面试/UsualInterview/数据结构刷题/线性表/P3613_深基15.例2_寄包柜.cpp"
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++    -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=gnu++14 -o CMakeFiles/main.dir/数据结构刷题/线性表/P1449_后缀表达式.cpp.o -c /Users/sjcheng/Desktop/腾讯面试/UsualInterview/数据结构刷题/线性表/P1449_后缀表达式.cpp",
+  "file": "/Users/sjcheng/Desktop/腾讯面试/UsualInterview/数据结构刷题/线性表/P1449_后缀表达式.cpp"
 }
 ]
