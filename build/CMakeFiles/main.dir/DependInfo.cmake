@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/sjcheng/Desktop/腾讯面试/UsualInterview/数据结构刷题/线性表/P1449_后缀表达式.cpp" "/Users/sjcheng/Desktop/腾讯面试/UsualInterview/build/CMakeFiles/main.dir/数据结构刷题/线性表/P1449_后缀表达式.cpp.o"
+  "/Users/sjcheng/Desktop/腾讯面试/UsualInterview/数据结构刷题/线性表/P1160_队列安排.cpp" "/Users/sjcheng/Desktop/腾讯面试/UsualInterview/build/CMakeFiles/main.dir/数据结构刷题/线性表/P1160_队列安排.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
