@@ -520,32 +520,32 @@ Experimental/fast:
 	$(MAKE) -f CMakeFiles/Experimental.dir/build.make CMakeFiles/Experimental.dir/build
 .PHONY : Experimental/fast
 
-数据结构刷题/线性表/P1160_队列安排.o: 数据结构刷题/线性表/P1160_队列安排.cpp.o
+test.o: test.cpp.o
 
-.PHONY : 数据结构刷题/线性表/P1160_队列安排.o
+.PHONY : test.o
 
 # target to build an object file
-数据结构刷题/线性表/P1160_队列安排.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/数据结构刷题/线性表/P1160_队列安排.cpp.o
-.PHONY : 数据结构刷题/线性表/P1160_队列安排.cpp.o
+test.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/test.cpp.o
+.PHONY : test.cpp.o
 
-数据结构刷题/线性表/P1160_队列安排.i: 数据结构刷题/线性表/P1160_队列安排.cpp.i
+test.i: test.cpp.i
 
-.PHONY : 数据结构刷题/线性表/P1160_队列安排.i
+.PHONY : test.i
 
 # target to preprocess a source file
-数据结构刷题/线性表/P1160_队列安排.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/数据结构刷题/线性表/P1160_队列安排.cpp.i
-.PHONY : 数据结构刷题/线性表/P1160_队列安排.cpp.i
+test.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/test.cpp.i
+.PHONY : test.cpp.i
 
-数据结构刷题/线性表/P1160_队列安排.s: 数据结构刷题/线性表/P1160_队列安排.cpp.s
+test.s: test.cpp.s
 
-.PHONY : 数据结构刷题/线性表/P1160_队列安排.s
+.PHONY : test.s
 
 # target to generate assembly for a file
-数据结构刷题/线性表/P1160_队列安排.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/数据结构刷题/线性表/P1160_队列安排.cpp.s
-.PHONY : 数据结构刷题/线性表/P1160_队列安排.cpp.s
+test.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/test.cpp.s
+.PHONY : test.cpp.s
 
 # Help Target
 help:
@@ -587,9 +587,9 @@ help:
 	@echo "... ExperimentalMemCheck"
 	@echo "... Continuous"
 	@echo "... Experimental"
-	@echo "... 数据结构刷题/线性表/P1160_队列安排.o"
-	@echo "... 数据结构刷题/线性表/P1160_队列安排.i"
-	@echo "... 数据结构刷题/线性表/P1160_队列安排.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 .PHONY : help
 
 

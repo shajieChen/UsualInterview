@@ -1,16 +1,37 @@
 #include <iostream>
 #include <memory> 
- //http://www.voidcn.com/article/p-shaukjgk-he.html
-using namespace std ; 
+#include <functional> 
+using namespace std::placeholders;  
+// using namespace std ; 
+struct TestBound
+{   
+    double a, b ; 
+    double multiplay() 
+    {
+        return a * b ;
+    }
+};
+
+
+
 struct test 
 {
     float testVar ;
     float testVar2 ; 
 };
+
+double GetDouble(int x, int y )
+{
+    return x / y ; 
+}
 int main(int argc, char const *argv[])
 {    
-    std::unique_ptr<test> relatest = std::make_unique<test>() ; 
-    std::cout << "test " << std::endl ; 
+    auto test = std::bind<float>(GetDouble , 10 , 2 );
+    TestBound testBound = {2, 10 } ;
+    auto test2 = std::bind(&TestBound::multiplay, testBound);
+    std::cout << test() << std::endl;  
+    
+    std::cout << test2()  << std::endl; 
     return 0;
 }
 
