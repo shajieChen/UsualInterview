@@ -26,19 +26,17 @@ int GetIndexOfValue(std::list<int> &listView, int iValue)
         {
             iResult = std::distance(listView.begin(), it);
             break ;
-        }
-        // std::cout << "getind" << std::endl  ; 
+        } 
     }
     return iResult;
 }
 
 void InsertElement(std::list<int> &listView, int index ,int element)
-{
+{ 
     std::list<int>::iterator it = listView.begin() ; 
     for(int i =0 ; i <= index ; i++ )
     {
-        it++;  
-        // std::cout << "?? " << std::endl ;
+        it++;   
     }
     listView.insert(it, element);
 }
@@ -51,36 +49,55 @@ std::list<int> buildList(int numElement)
     for(int i = 0 ; i < numElement ; i++)
     {
         if(i == 0) {
-            returnList.push_front(1); 
-            std::cout << std::endl; 
-            std::cout << "-----" << std::endl; 
-            printList(returnList) ;
+            returnList.push_front(1);   
             continue;  
         }
         cin >> iElement >> iOperate ; 
 
         if(iOperate == 0 )
         {
-            InsertElement(returnList , GetIndexOfValue(returnList , iElement) - 1, i+1);
+            InsertElement(returnList , GetIndexOfValue(returnList , iElement) - 1, i + 1);
         }
         else if (iOperate == 1 )
         { 
-            InsertElement(returnList , GetIndexOfValue(returnList , iElement) + 1 , i + 1) ;
-        } 
-
-        printList(returnList) ;
-    }
-    // std::cout << "return " << std::endl ; 
+            InsertElement(returnList , GetIndexOfValue(returnList , iElement)  , i + 1) ;
+        }  
+    } 
     return returnList;  
+}
+
+void deletedEelement(std::list<int> &list, int iElement)
+{
+    std::list<int>::iterator it = list.begin() ; 
+    for(;it != list.end(); it++)
+    { 
+        if(*it == iElement)
+        { 
+            list.erase(it--);
+        }
+    }
+}
+
+void deletedBranchElement(std::list<int> &list , int iAmount)
+{
+    int iElement = 0 ; 
+    for(int i = 0; i < iAmount ; i++)
+    {
+        cin >> iElement ;  
+        deletedEelement(list, iElement);
+    }
 }
 
 
 int main(int argc, char const *argv[])
 {   
     int iNumElement = 0 ; 
+    int iNumDeleted = 0 ; 
     std::list<int> listResult ; 
     cin >> iNumElement;  
     listResult = buildList(iNumElement) ;  
-
+    cin >> iNumDeleted ; 
+    deletedBranchElement(listResult, iNumDeleted); 
+    printList(listResult) ;
     return 0 ;      
 }
