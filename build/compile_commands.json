@@ -1,7 +1,7 @@
 [
 {
   "directory": "/Users/sjcheng/Desktop/腾讯面试/UsualInterview/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++    -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=gnu++14 -o CMakeFiles/main.dir/test.cpp.o -c /Users/sjcheng/Desktop/腾讯面试/UsualInterview/test.cpp",
-  "file": "/Users/sjcheng/Desktop/腾讯面试/UsualInterview/test.cpp"
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++    -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=gnu++14 -o CMakeFiles/main.dir/数据结构刷题/线性表/P1540_机器翻译.cpp.o -c /Users/sjcheng/Desktop/腾讯面试/UsualInterview/数据结构刷题/线性表/P1540_机器翻译.cpp",
+  "file": "/Users/sjcheng/Desktop/腾讯面试/UsualInterview/数据结构刷题/线性表/P1540_机器翻译.cpp"
 }
 ]

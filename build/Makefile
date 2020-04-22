@@ -520,32 +520,32 @@ Experimental/fast:
 	$(MAKE) -f CMakeFiles/Experimental.dir/build.make CMakeFiles/Experimental.dir/build
 .PHONY : Experimental/fast
 
-test.o: test.cpp.o
+数据结构刷题/线性表/P1540_机器翻译.o: 数据结构刷题/线性表/P1540_机器翻译.cpp.o
 
-.PHONY : test.o
+.PHONY : 数据结构刷题/线性表/P1540_机器翻译.o
 
 # target to build an object file
-test.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/test.cpp.o
-.PHONY : test.cpp.o
+数据结构刷题/线性表/P1540_机器翻译.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/数据结构刷题/线性表/P1540_机器翻译.cpp.o
+.PHONY : 数据结构刷题/线性表/P1540_机器翻译.cpp.o
 
-test.i: test.cpp.i
+数据结构刷题/线性表/P1540_机器翻译.i: 数据结构刷题/线性表/P1540_机器翻译.cpp.i
 
-.PHONY : test.i
+.PHONY : 数据结构刷题/线性表/P1540_机器翻译.i
 
 # target to preprocess a source file
-test.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/test.cpp.i
-.PHONY : test.cpp.i
+数据结构刷题/线性表/P1540_机器翻译.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/数据结构刷题/线性表/P1540_机器翻译.cpp.i
+.PHONY : 数据结构刷题/线性表/P1540_机器翻译.cpp.i
 
-test.s: test.cpp.s
+数据结构刷题/线性表/P1540_机器翻译.s: 数据结构刷题/线性表/P1540_机器翻译.cpp.s
 
-.PHONY : test.s
+.PHONY : 数据结构刷题/线性表/P1540_机器翻译.s
 
 # target to generate assembly for a file
-test.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/test.cpp.s
-.PHONY : test.cpp.s
+数据结构刷题/线性表/P1540_机器翻译.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/数据结构刷题/线性表/P1540_机器翻译.cpp.s
+.PHONY : 数据结构刷题/线性表/P1540_机器翻译.cpp.s
 
 # Help Target
 help:
@@ -587,9 +587,9 @@ help:
 	@echo "... ExperimentalMemCheck"
 	@echo "... Continuous"
 	@echo "... Experimental"
-	@echo "... test.o"
-	@echo "... test.i"
-	@echo "... test.s"
+	@echo "... 数据结构刷题/线性表/P1540_机器翻译.o"
+	@echo "... 数据结构刷题/线性表/P1540_机器翻译.i"
+	@echo "... 数据结构刷题/线性表/P1540_机器翻译.s"
 .PHONY : help
 
 
