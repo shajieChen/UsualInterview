@@ -49,14 +49,17 @@ void SelectionSort(std::vector<int> &InputVector)
 } 
 
 void InsertionSort(std::vector<int> &InputVector)
-{
-    if(InputVector.size() == 0)
-        return ; 
-
-    int storeValue = 0 ; 
-    for(std::size_t i = 0; i < InputVector.size() ; i++ )
+{   
+    int storeValue , j; 
+    for(std::size_t i = 1; i < InputVector.size() ; i++ )
     {
-        
+        storeValue = InputVector[i];
+        j = i - 1 ; 
+        for(;j >= 0 && InputVector[j] > storeValue ; j = j - 1)
+        {
+            InputVector[j + 1 ] = InputVector[j]; 
+        }
+        InputVector[j + 1] = storeValue  ; 
     } 
 }
 
@@ -74,7 +77,7 @@ int main(int argc, char const *argv[])
         iUsrInputCollection.push_back(iCurUsrInput);   
     }
     // iResult = BubbleSort(iUsrInputCollection); 
-    SelectionSort(iUsrInputCollection);
+    InsertionSort(iUsrInputCollection); 
     PrintVector(iUsrInputCollection);
     return 0 ;  
 }
