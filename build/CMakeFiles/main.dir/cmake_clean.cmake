@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/数据结构刷题/线性表/P1540_机器翻译.cpp.o"
+  "CMakeFiles/main.dir/算法刷题/排序练习/测试_SelectionSort.cpp.o"
   "main"
   "main.pdb"
 )

@@ -520,32 +520,32 @@ Experimental/fast:
 	$(MAKE) -f CMakeFiles/Experimental.dir/build.make CMakeFiles/Experimental.dir/build
 .PHONY : Experimental/fast
 
-数据结构刷题/线性表/P1540_机器翻译.o: 数据结构刷题/线性表/P1540_机器翻译.cpp.o
+算法刷题/排序练习/测试_SelectionSort.o: 算法刷题/排序练习/测试_SelectionSort.cpp.o
 
-.PHONY : 数据结构刷题/线性表/P1540_机器翻译.o
+.PHONY : 算法刷题/排序练习/测试_SelectionSort.o
 
 # target to build an object file
-数据结构刷题/线性表/P1540_机器翻译.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/数据结构刷题/线性表/P1540_机器翻译.cpp.o
-.PHONY : 数据结构刷题/线性表/P1540_机器翻译.cpp.o
+算法刷题/排序练习/测试_SelectionSort.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/测试_SelectionSort.cpp.o
+.PHONY : 算法刷题/排序练习/测试_SelectionSort.cpp.o
 
-数据结构刷题/线性表/P1540_机器翻译.i: 数据结构刷题/线性表/P1540_机器翻译.cpp.i
+算法刷题/排序练习/测试_SelectionSort.i: 算法刷题/排序练习/测试_SelectionSort.cpp.i
 
-.PHONY : 数据结构刷题/线性表/P1540_机器翻译.i
+.PHONY : 算法刷题/排序练习/测试_SelectionSort.i
 
 # target to preprocess a source file
-数据结构刷题/线性表/P1540_机器翻译.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/数据结构刷题/线性表/P1540_机器翻译.cpp.i
-.PHONY : 数据结构刷题/线性表/P1540_机器翻译.cpp.i
+算法刷题/排序练习/测试_SelectionSort.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/测试_SelectionSort.cpp.i
+.PHONY : 算法刷题/排序练习/测试_SelectionSort.cpp.i
 
-数据结构刷题/线性表/P1540_机器翻译.s: 数据结构刷题/线性表/P1540_机器翻译.cpp.s
+算法刷题/排序练习/测试_SelectionSort.s: 算法刷题/排序练习/测试_SelectionSort.cpp.s
 
-.PHONY : 数据结构刷题/线性表/P1540_机器翻译.s
+.PHONY : 算法刷题/排序练习/测试_SelectionSort.s
 
 # target to generate assembly for a file
-数据结构刷题/线性表/P1540_机器翻译.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/数据结构刷题/线性表/P1540_机器翻译.cpp.s
-.PHONY : 数据结构刷题/线性表/P1540_机器翻译.cpp.s
+算法刷题/排序练习/测试_SelectionSort.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/测试_SelectionSort.cpp.s
+.PHONY : 算法刷题/排序练习/测试_SelectionSort.cpp.s
 
 # Help Target
 help:
@@ -587,9 +587,9 @@ help:
 	@echo "... ExperimentalMemCheck"
 	@echo "... Continuous"
 	@echo "... Experimental"
-	@echo "... 数据结构刷题/线性表/P1540_机器翻译.o"
-	@echo "... 数据结构刷题/线性表/P1540_机器翻译.i"
-	@echo "... 数据结构刷题/线性表/P1540_机器翻译.s"
+	@echo "... 算法刷题/排序练习/测试_SelectionSort.o"
+	@echo "... 算法刷题/排序练习/测试_SelectionSort.i"
+	@echo "... 算法刷题/排序练习/测试_SelectionSort.s"
 .PHONY : help
 
 

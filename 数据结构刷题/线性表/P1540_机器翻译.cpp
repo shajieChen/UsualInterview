@@ -40,10 +40,15 @@ void buildVec(std::vector<int> &vecResult ,int amount , int iTime)
     std::cout << iCount << std::endl; 
 }
 
+void NoMemoryError()
+{
+    std::cout << "out of memory " << std::endl;  
+    abort();  
+}
 
 int main(int argc, char const *argv[])
-{
-    
+{ 
+    set_new_handler(NoMemoryError); 
     int m, n = 0 ; 
     cin >> m >> n ;  
     std::vector<int> vecResult ; 

@@ -1,1 +1,1 @@
-/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/main.dir/数据结构刷题/线性表/P1540_机器翻译.cpp.o  -o main 
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/main.dir/算法刷题/排序练习/测试_SelectionSort.cpp.o  -o main 

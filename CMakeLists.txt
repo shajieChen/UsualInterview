@@ -5,7 +5,7 @@ project(main VERSION 0.1.0)
 include(CTest)
 enable_testing()
 
-add_executable(main 数据结构刷题/线性表/P1540_机器翻译.cpp) 
+add_executable(main 算法刷题/排序练习/测试_SelectionSort.cpp) 
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
