@@ -520,32 +520,32 @@ Experimental/fast:
 	$(MAKE) -f CMakeFiles/Experimental.dir/build.make CMakeFiles/Experimental.dir/build
 .PHONY : Experimental/fast
 
-算法刷题/排序练习/测试_SelectionSort.o: 算法刷题/排序练习/测试_SelectionSort.cpp.o
+算法刷题/排序练习/测试_advanced_Sort.o: 算法刷题/排序练习/测试_advanced_Sort.cpp.o
 
-.PHONY : 算法刷题/排序练习/测试_SelectionSort.o
+.PHONY : 算法刷题/排序练习/测试_advanced_Sort.o
 
 # target to build an object file
-算法刷题/排序练习/测试_SelectionSort.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/测试_SelectionSort.cpp.o
-.PHONY : 算法刷题/排序练习/测试_SelectionSort.cpp.o
+算法刷题/排序练习/测试_advanced_Sort.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/测试_advanced_Sort.cpp.o
+.PHONY : 算法刷题/排序练习/测试_advanced_Sort.cpp.o
 
-算法刷题/排序练习/测试_SelectionSort.i: 算法刷题/排序练习/测试_SelectionSort.cpp.i
+算法刷题/排序练习/测试_advanced_Sort.i: 算法刷题/排序练习/测试_advanced_Sort.cpp.i
 
-.PHONY : 算法刷题/排序练习/测试_SelectionSort.i
+.PHONY : 算法刷题/排序练习/测试_advanced_Sort.i
 
 # target to preprocess a source file
-算法刷题/排序练习/测试_SelectionSort.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/测试_SelectionSort.cpp.i
-.PHONY : 算法刷题/排序练习/测试_SelectionSort.cpp.i
+算法刷题/排序练习/测试_advanced_Sort.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/测试_advanced_Sort.cpp.i
+.PHONY : 算法刷题/排序练习/测试_advanced_Sort.cpp.i
 
-算法刷题/排序练习/测试_SelectionSort.s: 算法刷题/排序练习/测试_SelectionSort.cpp.s
+算法刷题/排序练习/测试_advanced_Sort.s: 算法刷题/排序练习/测试_advanced_Sort.cpp.s
 
-.PHONY : 算法刷题/排序练习/测试_SelectionSort.s
+.PHONY : 算法刷题/排序练习/测试_advanced_Sort.s
 
 # target to generate assembly for a file
-算法刷题/排序练习/测试_SelectionSort.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/测试_SelectionSort.cpp.s
-.PHONY : 算法刷题/排序练习/测试_SelectionSort.cpp.s
+算法刷题/排序练习/测试_advanced_Sort.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/算法刷题/排序练习/测试_advanced_Sort.cpp.s
+.PHONY : 算法刷题/排序练习/测试_advanced_Sort.cpp.s
 
 # Help Target
 help:
@@ -587,9 +587,9 @@ help:
 	@echo "... ExperimentalMemCheck"
 	@echo "... Continuous"
 	@echo "... Experimental"
-	@echo "... 算法刷题/排序练习/测试_SelectionSort.o"
-	@echo "... 算法刷题/排序练习/测试_SelectionSort.i"
-	@echo "... 算法刷题/排序练习/测试_SelectionSort.s"
+	@echo "... 算法刷题/排序练习/测试_advanced_Sort.o"
+	@echo "... 算法刷题/排序练习/测试_advanced_Sort.i"
+	@echo "... 算法刷题/排序练习/测试_advanced_Sort.s"
 .PHONY : help
 
 

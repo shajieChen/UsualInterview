@@ -1,7 +1,7 @@
 [
 {
   "directory": "/Users/sjcheng/Desktop/腾讯面试/UsualInterview/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++    -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=gnu++14 -o CMakeFiles/main.dir/算法刷题/排序练习/测试_SelectionSort.cpp.o -c /Users/sjcheng/Desktop/腾讯面试/UsualInterview/算法刷题/排序练习/测试_SelectionSort.cpp",
-  "file": "/Users/sjcheng/Desktop/腾讯面试/UsualInterview/算法刷题/排序练习/测试_SelectionSort.cpp"
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++    -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=gnu++14 -o CMakeFiles/main.dir/算法刷题/排序练习/测试_advanced_Sort.cpp.o -c /Users/sjcheng/Desktop/腾讯面试/UsualInterview/算法刷题/排序练习/测试_advanced_Sort.cpp",
+  "file": "/Users/sjcheng/Desktop/腾讯面试/UsualInterview/算法刷题/排序练习/测试_advanced_Sort.cpp"
 }
 ]
