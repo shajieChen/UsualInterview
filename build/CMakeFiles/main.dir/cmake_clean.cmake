@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/算法刷题/排序练习/测试_advanced_Sort.cpp.o"
+  "CMakeFiles/main.dir/二叉树的学习/P4913_深基16.例3_二叉树深度.cpp.o"
   "main"
   "main.pdb"
 )
