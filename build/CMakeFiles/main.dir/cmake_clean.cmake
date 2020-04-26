@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/二叉树练习/P1229_遍历问题.cpp.o"
+  "CMakeFiles/main.dir/二叉树练习/P1305_新二叉树_题解.cpp.o"
   "main"
   "main.pdb"
 )

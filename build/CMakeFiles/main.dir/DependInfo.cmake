@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/sjcheng/Desktop/腾讯面试/UsualInterview/二叉树练习/P1229_遍历问题.cpp" "/Users/sjcheng/Desktop/腾讯面试/UsualInterview/build/CMakeFiles/main.dir/二叉树练习/P1229_遍历问题.cpp.o"
+  "/Users/sjcheng/Desktop/腾讯面试/UsualInterview/二叉树练习/P1305_新二叉树_题解.cpp" "/Users/sjcheng/Desktop/腾讯面试/UsualInterview/build/CMakeFiles/main.dir/二叉树练习/P1305_新二叉树_题解.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

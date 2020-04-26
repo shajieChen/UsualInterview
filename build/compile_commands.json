@@ -1,7 +1,7 @@
 [
 {
   "directory": "/Users/sjcheng/Desktop/腾讯面试/UsualInterview/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++    -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=gnu++14 -o CMakeFiles/main.dir/二叉树练习/P1229_遍历问题.cpp.o -c /Users/sjcheng/Desktop/腾讯面试/UsualInterview/二叉树练习/P1229_遍历问题.cpp",
-  "file": "/Users/sjcheng/Desktop/腾讯面试/UsualInterview/二叉树练习/P1229_遍历问题.cpp"
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++    -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=gnu++14 -o CMakeFiles/main.dir/二叉树练习/P1305_新二叉树_题解.cpp.o -c /Users/sjcheng/Desktop/腾讯面试/UsualInterview/二叉树练习/P1305_新二叉树_题解.cpp",
+  "file": "/Users/sjcheng/Desktop/腾讯面试/UsualInterview/二叉树练习/P1305_新二叉树_题解.cpp"
 }
 ]
