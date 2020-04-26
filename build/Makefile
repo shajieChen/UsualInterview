@@ -520,32 +520,32 @@ Experimental/fast:
 	$(MAKE) -f CMakeFiles/Experimental.dir/build.make CMakeFiles/Experimental.dir/build
 .PHONY : Experimental/fast
 
-二叉树的学习/P4913_深基16.例3_二叉树深度.o: 二叉树的学习/P4913_深基16.例3_二叉树深度.cpp.o
+二叉树练习/P1229_遍历问题.o: 二叉树练习/P1229_遍历问题.cpp.o
 
-.PHONY : 二叉树的学习/P4913_深基16.例3_二叉树深度.o
+.PHONY : 二叉树练习/P1229_遍历问题.o
 
 # target to build an object file
-二叉树的学习/P4913_深基16.例3_二叉树深度.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/二叉树的学习/P4913_深基16.例3_二叉树深度.cpp.o
-.PHONY : 二叉树的学习/P4913_深基16.例3_二叉树深度.cpp.o
+二叉树练习/P1229_遍历问题.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/二叉树练习/P1229_遍历问题.cpp.o
+.PHONY : 二叉树练习/P1229_遍历问题.cpp.o
 
-二叉树的学习/P4913_深基16.例3_二叉树深度.i: 二叉树的学习/P4913_深基16.例3_二叉树深度.cpp.i
+二叉树练习/P1229_遍历问题.i: 二叉树练习/P1229_遍历问题.cpp.i
 
-.PHONY : 二叉树的学习/P4913_深基16.例3_二叉树深度.i
+.PHONY : 二叉树练习/P1229_遍历问题.i
 
 # target to preprocess a source file
-二叉树的学习/P4913_深基16.例3_二叉树深度.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/二叉树的学习/P4913_深基16.例3_二叉树深度.cpp.i
-.PHONY : 二叉树的学习/P4913_深基16.例3_二叉树深度.cpp.i
+二叉树练习/P1229_遍历问题.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/二叉树练习/P1229_遍历问题.cpp.i
+.PHONY : 二叉树练习/P1229_遍历问题.cpp.i
 
-二叉树的学习/P4913_深基16.例3_二叉树深度.s: 二叉树的学习/P4913_深基16.例3_二叉树深度.cpp.s
+二叉树练习/P1229_遍历问题.s: 二叉树练习/P1229_遍历问题.cpp.s
 
-.PHONY : 二叉树的学习/P4913_深基16.例3_二叉树深度.s
+.PHONY : 二叉树练习/P1229_遍历问题.s
 
 # target to generate assembly for a file
-二叉树的学习/P4913_深基16.例3_二叉树深度.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/二叉树的学习/P4913_深基16.例3_二叉树深度.cpp.s
-.PHONY : 二叉树的学习/P4913_深基16.例3_二叉树深度.cpp.s
+二叉树练习/P1229_遍历问题.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/二叉树练习/P1229_遍历问题.cpp.s
+.PHONY : 二叉树练习/P1229_遍历问题.cpp.s
 
 # Help Target
 help:
@@ -587,9 +587,9 @@ help:
 	@echo "... ExperimentalMemCheck"
 	@echo "... Continuous"
 	@echo "... Experimental"
-	@echo "... 二叉树的学习/P4913_深基16.例3_二叉树深度.o"
-	@echo "... 二叉树的学习/P4913_深基16.例3_二叉树深度.i"
-	@echo "... 二叉树的学习/P4913_深基16.例3_二叉树深度.s"
+	@echo "... 二叉树练习/P1229_遍历问题.o"
+	@echo "... 二叉树练习/P1229_遍历问题.i"
+	@echo "... 二叉树练习/P1229_遍历问题.s"
 .PHONY : help
 
 
