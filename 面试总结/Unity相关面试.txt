@@ -99,7 +99,13 @@ Unity 相关面试
                 其在光源视角下的 depth 大于 shadow map中对应位置的 depth，则意味着它被某个物体遮挡，因此是在阴影中的；反之则不在阴影之中。
             所以，对于世界中的某个点 p，我们只要将其转移到 light space ，比较他在light space下的depth，就可以判定它是否是在阴影之中了。 
 
-
+5.unity动态合批，静态合批的区别： 
+    Unity在 Player Setting 里的两个功能选项 Static Batching 与 Dynamic Batching。功能描述如下：
+         Static Batching 是将标明为 Static 的静态物件，
+         如果在使用相同材质球的条件下，Unity 会自动帮你把这两个物件合并成一个 Batch，送往 GPU 来处理。
+         这功能对效能上非常的有帮助，所以是需要付费才有的。
+    Dynamic Batching 是在物件小于300面的条件下(不论物件是否为静态或动态)，
+        在使用相同材质球下，Unity就会自动帮你合合并成一个 Batch 送往 GPU 来处理。
 
 4. UGUI 的优化 
     UI 资源规范（内存优化） 
@@ -113,6 +119,44 @@ Unity 相关面试
     7.尽量复用 UI 资源，减少不必要的原图，例如一个卡牌分了五种品质原画底图，白蓝黄绿紫，就不要使用五张大底图了，让美术同事画一个灰色原图，Image 在使用的时候直接按需求修改顶点色即可（内存优化）；
     8.关闭 mipmaps（内存优化）。
 
+    GPU 优化 
+        谈及 GPU，我们知道它负责整个渲染流水线，从处理 CPU 传递过来的模型数据开始，
+        进行 Vertex Shader、Fragment Shader 等一系列工作，最后输出屏幕上的每个像素。
+        因此我们可以从两个方面着手，优化 Shader、减少 OverDraw。
+
+    Shader 优化 
+    我们的 UI Shader 是自己编写的，没有使用默认的 UI-Default.shader，因此Shader 优化非常有必要。
+        1.Fog { Mode Off }，最早有一个版本我们没有关闭 Fog，导致打开全屏 UI 的时候帧率明显往下掉（我们的全屏 UI 开启后会关闭主相机，理论上渲染压力和CPU 消耗会降低），后来 Adreno Profiler 真机调式 Shader 代码后发现了此问题；
+        2.Fragment 剔除掉 Alpha 为 0 的像素点，减少 OverDraw；
+        3.尽量简化 Shader 代码，最早我们有一些 UI 效果的需求全都写在了一个Shader 里，其实 99%的 UI 不要这些东西，单独把效果需求代码拎出来独立一个 Shader。
+
+
+    OverDraw 优化 
+     在每帧绘制中，如果一个像素被反复绘制的次数越多，那么它占用的资源也必然更多。
+     目前在移动设备上，OverDraw 的压力主要来自半透明物体。因为多数情况下，半透明物体需要开启 Alpha Blend 且关闭 ZWrite，同时如果我们绘制像 alpha=0 这种实际上不会产生效果的颜色上去，也同样有 Blend 操作，这是一种极大的浪费。
+
+    我们的 UI 绘制是 Alpha Blend 且关闭 ZWrite，因此 UI OverDraw 的优化主要是在制作界面的时候减少 UI 重叠层级（和策划、美术 pk）。除此之外还是有一些我们程序可以控制的优化点：
+        1.对于九宫格的 Image，如果去掉 fillcenter 不影响最后出来的效果就要把fillcenter 去掉，可以减少中间一片的像素绘制；
+        2.看不见的元素且没有逻辑功能要 disable 或者挪出裁剪区域，而不要通过设置Alpha=0 来隐藏；
+        3.不要使用一张 Alpha=0 的 Image 来实现放大响应区域的功能；
+        4.UI 底层系统来控制隐藏看不见的元素，例如打开全屏 UI 的时候把下面看不见的 UI 挪出裁减区域、关闭主相机渲染。
+
+    CPU 优化 
+        在我们项目开发的过程中，遇到的大部分 UI 相关性能热点都是和 CPU 消耗相关的。
+        大致可以分为以下几类：DrawCall、Canvas.SendWillRenderCanvases()、Canvas.BuildBatch()和其他。
+
+    DrawCall 优化 
+    DrawCall 是 CPU 调用底层图形接口，频繁的调用对 CPU 性能的影响是很明显的。优化思路很简单，合批绘制。UGUI 本身的动态合批机制会帮我们尽量的去优化合批，我们要做的就是弄清楚它的合批机制然后让 UI 元素尽量合批绘制。以下是我们项目组在制作 UI 过程中总结出来了的一些优化 Tips：
+        1.合理分配图集，同一个界面上的图尽量打到一个图集，多个界面复用的图，放到 common；
+        2.制作界面的时候，相邻节点尽量使用同一个图集的图片；
+        3.Text 本身也是用的 Font Texture，不同字体的 Text 也是来自不同的图集，所以在布局界面的时候也要尽量避免穿插打断绘制流程；
+        4.DrawCall 的数量不是完全由 Hierarchy 的布局决定，和 UI 的位置也有关系，
+            这个位置不是指的 Rectranform 上面的 size 位置重叠就一定打断绘制，而是真实的三角面的位置是否重叠。这个可以在 Scene 视图下用线框模式(Texture
+            Wire)去观察；
+        5.少用 Mask 组件，Mask 实现的原理是 Stencil Buffer，往模版缓存里绘制，模版缓存里的东西才是可见的。
+            模板缓存会打断所有的合批，Mask 的子节点和外面的节点无法合批，模板缓存自己占一个 DrawCall。
+            Unity5.2 之后的版本建议使用 2D Rect Mask 替代。
+
 5. 同步 异步 加载问题
     下面我们学习异步加载游戏场景，异步异步顾名思义就是不影响当前游戏场景的前提下加载新场景。
     通常异步加载的方式分为两种：
@@ -122,3 +166,21 @@ Unity 相关面试
     同步加载 
         读取新关卡后立即切换，其参数为所读取新关卡的名称或索引。Application.LoadLevel ("关卡名或者加载场景的序号") 
         这个方法对于场景小，资源少的情况可以，要是遇到资源大的场景，就会卡，这种情况就要用到异步加载了
+
+
+6. 类和接口的区别 以及相同点 
+    不同点：
+        接口不能直接实例化。
+        接口不包含方法的实现。
+        接口可以多继承，类只能单继承。
+        类定义可以在不同的源文件之间进行拆分。
+    相同点：
+        接口、类和结构都可以从多个接口继承。
+        接口类似于抽象基类：继承接口的任何非抽象类型都必须实现接口的所有成员。
+        接口和类都可以包含事件、索引器、属性。 
+
+7. unity 生命周期
+    Awake -> onEnable -> Start -> FixUpdate -> Update -> Lateupdate -> OnGUI -> OnDiable -> OnDestroy 
+    LateUpdate是在所有Update函数调用后被调用。可用于调整脚本执行顺序。例如:当物体在Update里移动时，跟随物体的相机可以在LateUpdate里实现。
+    所以一些物理属性的更新操作应该放在FxiedUpdate中操作，比如Force，Collider，Rigidbody等。
+        外设的操作也是，比如说键盘或者鼠标的输入输出Input，因为这样GameObject的物理表现的更平滑，更接近现实。
