@@ -520,32 +520,32 @@ Experimental/fast:
 	$(MAKE) -f CMakeFiles/Experimental.dir/build.make CMakeFiles/Experimental.dir/build
 .PHONY : Experimental/fast
 
-搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.o: 搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.cpp.o
+图/P5318_深基18.例3_查找文献.o: 图/P5318_深基18.例3_查找文献.cpp.o
 
-.PHONY : 搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.o
+.PHONY : 图/P5318_深基18.例3_查找文献.o
 
 # target to build an object file
-搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.cpp.o
-.PHONY : 搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.cpp.o
+图/P5318_深基18.例3_查找文献.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/图/P5318_深基18.例3_查找文献.cpp.o
+.PHONY : 图/P5318_深基18.例3_查找文献.cpp.o
 
-搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.i: 搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.cpp.i
+图/P5318_深基18.例3_查找文献.i: 图/P5318_深基18.例3_查找文献.cpp.i
 
-.PHONY : 搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.i
+.PHONY : 图/P5318_深基18.例3_查找文献.i
 
 # target to preprocess a source file
-搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.cpp.i
-.PHONY : 搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.cpp.i
+图/P5318_深基18.例3_查找文献.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/图/P5318_深基18.例3_查找文献.cpp.i
+.PHONY : 图/P5318_深基18.例3_查找文献.cpp.i
 
-搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.s: 搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.cpp.s
+图/P5318_深基18.例3_查找文献.s: 图/P5318_深基18.例3_查找文献.cpp.s
 
-.PHONY : 搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.s
+.PHONY : 图/P5318_深基18.例3_查找文献.s
 
 # target to generate assembly for a file
-搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.cpp.s
-.PHONY : 搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.cpp.s
+图/P5318_深基18.例3_查找文献.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/图/P5318_深基18.例3_查找文献.cpp.s
+.PHONY : 图/P5318_深基18.例3_查找文献.cpp.s
 
 # Help Target
 help:
@@ -587,9 +587,9 @@ help:
 	@echo "... ExperimentalMemCheck"
 	@echo "... Continuous"
 	@echo "... Experimental"
-	@echo "... 搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.o"
-	@echo "... 搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.i"
-	@echo "... 搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.s"
+	@echo "... 图/P5318_深基18.例3_查找文献.o"
+	@echo "... 图/P5318_深基18.例3_查找文献.i"
+	@echo "... 图/P5318_深基18.例3_查找文献.s"
 .PHONY : help
 
 

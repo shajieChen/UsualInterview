@@ -1,7 +1,7 @@
 [
 {
   "directory": "/Users/sjcheng/Desktop/腾讯面试/UsualInterview/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++    -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=gnu++14 -o CMakeFiles/main.dir/搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.cpp.o -c /Users/sjcheng/Desktop/腾讯面试/UsualInterview/搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.cpp",
-  "file": "/Users/sjcheng/Desktop/腾讯面试/UsualInterview/搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.cpp"
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++    -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=gnu++14 -o CMakeFiles/main.dir/图/P5318_深基18.例3_查找文献.cpp.o -c /Users/sjcheng/Desktop/腾讯面试/UsualInterview/图/P5318_深基18.例3_查找文献.cpp",
+  "file": "/Users/sjcheng/Desktop/腾讯面试/UsualInterview/图/P5318_深基18.例3_查找文献.cpp"
 }
 ]

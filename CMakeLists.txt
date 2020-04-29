@@ -5,7 +5,7 @@ project(main VERSION 0.1.0)
 include(CTest)
 enable_testing()
 
-add_executable(main 搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.cpp) 
+add_executable(main 图/P5318_深基18.例3_查找文献.cpp) 
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
