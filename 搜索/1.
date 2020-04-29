@@ -1,0 +1,69 @@
+1. 
+    数组 ： 以C++ STL的std::array为例子， 分配器在分配指定类型对象数组的时候，在空间上创建一个连续
+           的存储空间 用于之后对象的插入
+           使用场景：
+                已经知道数组的固定大小的情况下 或则需要处理一系列数组对象排序的问题时
+                比如枚举设定常见类型
+                enum DAY{
+                    eMonday = 0 , 
+                    ...
+                    MAX_DAY
+                };
+                的时候 就可以直接调用固定array的分配器直接进行分配内存空间 ，增加空间利用率
+                std::array<int , DAY::MAX_Day> date ; 
+           性能/优点： 
+                连续存储空间内允许随机访问 
+           缺点：
+                无法扩容，固定大小 
+
+    链表：以C++ STL 的std::List为例子，为双向链表结构，这种往往表现与空间上的不连续，每一个结点需要知道前面一个结点，
+        以及后面一个结点的位置， 并且与C++中这种双向链表成一个环状态，无法进行随机访问 
+            使用场景：
+                相对于数组的固定插入和删除，链表提供了很强的动态添加/删除/迭代器等内容,
+            好处  :
+                可以动态的插入insert对象和删除对象，并且环状的空间结构能提高空间利用率
+            缺点：
+                由于空间不连续 迭代器无法随机访问，链表过长导致迭代器搜索效率低
+2. 
+
+    /*基于双向开口的数组*/
+    template <typename T>
+    Struct queue
+    {
+    public : 
+        queue(int iCapacity) : mSize(0) , mCapacity(0) , mHeadIndex(0),mTailIndex(0)
+        {
+            mPtrQueue = new T[iCapacity] ;   
+        }; 
+        virtual ~queue(); 
+        inline void enqueue(T element) {
+            if(mSize == mCapacity)
+                return;
+            mPtrQueue[mTailIndex] = element; 
+            mTailIndex++ ; 
+            mSize++ ; 
+        } ;
+        inlien void dequeue(T element) {
+            if(mSize == 0 )
+                return ; 
+            tmpElement = mPtrQueue[mHeadIndex]  ; 
+            if(tmpElement != element)
+            {
+                throw std::Exception("Error : Can't find the Element");
+            }
+            mHeadIndex++ ; 
+            mSize -- ;  
+        };          
+    private :
+        T* mPtrQueue; 
+        int mSize ; 
+        int mCapacity ; 
+        int mHeadIndex ; 
+        int mTailIndex ; 
+    };
+
+    int main()
+    {
+        return 0 ; 
+    }
+            

@@ -5,7 +5,7 @@ project(main VERSION 0.1.0)
 include(CTest)
 enable_testing()
 
-add_executable(main 二叉树练习/P1305_新二叉树_题解.cpp) 
+add_executable(main 搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.cpp) 
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})

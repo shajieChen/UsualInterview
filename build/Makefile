@@ -520,32 +520,32 @@ Experimental/fast:
 	$(MAKE) -f CMakeFiles/Experimental.dir/build.make CMakeFiles/Experimental.dir/build
 .PHONY : Experimental/fast
 
-二叉树练习/P1305_新二叉树_题解.o: 二叉树练习/P1305_新二叉树_题解.cpp.o
+搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.o: 搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.cpp.o
 
-.PHONY : 二叉树练习/P1305_新二叉树_题解.o
+.PHONY : 搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.o
 
 # target to build an object file
-二叉树练习/P1305_新二叉树_题解.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/二叉树练习/P1305_新二叉树_题解.cpp.o
-.PHONY : 二叉树练习/P1305_新二叉树_题解.cpp.o
+搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.cpp.o
+.PHONY : 搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.cpp.o
 
-二叉树练习/P1305_新二叉树_题解.i: 二叉树练习/P1305_新二叉树_题解.cpp.i
+搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.i: 搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.cpp.i
 
-.PHONY : 二叉树练习/P1305_新二叉树_题解.i
+.PHONY : 搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.i
 
 # target to preprocess a source file
-二叉树练习/P1305_新二叉树_题解.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/二叉树练习/P1305_新二叉树_题解.cpp.i
-.PHONY : 二叉树练习/P1305_新二叉树_题解.cpp.i
+搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.cpp.i
+.PHONY : 搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.cpp.i
 
-二叉树练习/P1305_新二叉树_题解.s: 二叉树练习/P1305_新二叉树_题解.cpp.s
+搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.s: 搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.cpp.s
 
-.PHONY : 二叉树练习/P1305_新二叉树_题解.s
+.PHONY : 搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.s
 
 # target to generate assembly for a file
-二叉树练习/P1305_新二叉树_题解.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/二叉树练习/P1305_新二叉树_题解.cpp.s
-.PHONY : 二叉树练习/P1305_新二叉树_题解.cpp.s
+搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.cpp.s
+.PHONY : 搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.cpp.s
 
 # Help Target
 help:
@@ -587,9 +587,9 @@ help:
 	@echo "... ExperimentalMemCheck"
 	@echo "... Continuous"
 	@echo "... Experimental"
-	@echo "... 二叉树练习/P1305_新二叉树_题解.o"
-	@echo "... 二叉树练习/P1305_新二叉树_题解.i"
-	@echo "... 二叉树练习/P1305_新二叉树_题解.s"
+	@echo "... 搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.o"
+	@echo "... 搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.i"
+	@echo "... 搜索/P1219_[USACO1.5]八皇后_Checker_Challenge.s"
 .PHONY : help
 
 
