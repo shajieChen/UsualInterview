@@ -2,6 +2,7 @@
 *https://www.luogu.com.cn/problem/P5703
 */
 #include <iostream>
+#include <queue>
 #include <vector>
 #include <algorithm>
 using namespace std;  
@@ -28,6 +29,45 @@ void debugVector(std::vector<Edge> edgeVec)
         std::cout << "From: " << it->iPointFrom << "To: " << it->iPointTo << std::endl; 
     }
 } 
+
+void DFS(int x, std::vector<Edge> edgeVec) 
+{
+    vis1[x] = true; 
+    std::cout << x << " " ;  
+    for(int i = 0 ; i < s[x].size() ; i ++ )
+    {
+        int pointTo = edgeVec[s[x][i]].iPointTo;  
+        if(!vis1[pointTo])
+        {
+            DFS(pointTo, edgeVec);
+        }
+    }
+}
+
+void BFS(int x , std::vector<Edge> edgeVec) 
+{
+    std::queue<int> q;  
+    q.push(x);
+    std::cout << x << " " ; 
+    vis2[x] = 1 ; 
+    while (!q.empty())
+    {
+        int fro = q.front();
+        for(int i = 0 ; i < s[fro].size() ; i++)
+        {
+            int pointTo = edgeVec[s[fro][i]].iPointTo; 
+            if(!vis2[pointTo])
+            {
+                q.push(pointTo);
+                cout << pointTo << " ";  
+                vis2[pointTo] = 1 ; 
+            }
+        }
+        q.pop(); 
+    } 
+}
+
+
 int main(int argc, char const *argv[])
 {    
     int iNum, iLines ; 
@@ -39,15 +79,14 @@ int main(int argc, char const *argv[])
         cin >> iTPointFrom >> iTPointTo ; 
         edgeVec.push_back({iTPointFrom , iTPointTo}); 
     }
-    std::sort(edgeVec.begin() , edgeVec.end(),cmp );
-    // debugVector(edgeVec);
-    for(int i = 0 ; i < m ; i ++ )
+    std::sort(edgeVec.begin() , edgeVec.end(),cmp ); 
+    for(int i = 0 ; i < iLines ; i ++ )
     {
         s[edgeVec[i].iPointFrom].push_back(i);
     } 
-
+    DFS(1, edgeVec);
     cout<<endl;
-
+    BFS(1, edgeVec);
 
     return 0 ;  
 }
