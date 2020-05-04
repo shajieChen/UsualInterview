@@ -520,32 +520,32 @@ Experimental/fast:
 	$(MAKE) -f CMakeFiles/Experimental.dir/build.make CMakeFiles/Experimental.dir/build
 .PHONY : Experimental/fast
 
-图/P5318_深基18.例3_查找文献.o: 图/P5318_深基18.例3_查找文献.cpp.o
+图/P3916_图的遍历.o: 图/P3916_图的遍历.cpp.o
 
-.PHONY : 图/P5318_深基18.例3_查找文献.o
+.PHONY : 图/P3916_图的遍历.o
 
 # target to build an object file
-图/P5318_深基18.例3_查找文献.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/图/P5318_深基18.例3_查找文献.cpp.o
-.PHONY : 图/P5318_深基18.例3_查找文献.cpp.o
+图/P3916_图的遍历.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/图/P3916_图的遍历.cpp.o
+.PHONY : 图/P3916_图的遍历.cpp.o
 
-图/P5318_深基18.例3_查找文献.i: 图/P5318_深基18.例3_查找文献.cpp.i
+图/P3916_图的遍历.i: 图/P3916_图的遍历.cpp.i
 
-.PHONY : 图/P5318_深基18.例3_查找文献.i
+.PHONY : 图/P3916_图的遍历.i
 
 # target to preprocess a source file
-图/P5318_深基18.例3_查找文献.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/图/P5318_深基18.例3_查找文献.cpp.i
-.PHONY : 图/P5318_深基18.例3_查找文献.cpp.i
+图/P3916_图的遍历.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/图/P3916_图的遍历.cpp.i
+.PHONY : 图/P3916_图的遍历.cpp.i
 
-图/P5318_深基18.例3_查找文献.s: 图/P5318_深基18.例3_查找文献.cpp.s
+图/P3916_图的遍历.s: 图/P3916_图的遍历.cpp.s
 
-.PHONY : 图/P5318_深基18.例3_查找文献.s
+.PHONY : 图/P3916_图的遍历.s
 
 # target to generate assembly for a file
-图/P5318_深基18.例3_查找文献.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/图/P5318_深基18.例3_查找文献.cpp.s
-.PHONY : 图/P5318_深基18.例3_查找文献.cpp.s
+图/P3916_图的遍历.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/图/P3916_图的遍历.cpp.s
+.PHONY : 图/P3916_图的遍历.cpp.s
 
 # Help Target
 help:
@@ -587,9 +587,9 @@ help:
 	@echo "... ExperimentalMemCheck"
 	@echo "... Continuous"
 	@echo "... Experimental"
-	@echo "... 图/P5318_深基18.例3_查找文献.o"
-	@echo "... 图/P5318_深基18.例3_查找文献.i"
-	@echo "... 图/P5318_深基18.例3_查找文献.s"
+	@echo "... 图/P3916_图的遍历.o"
+	@echo "... 图/P3916_图的遍历.i"
+	@echo "... 图/P3916_图的遍历.s"
 .PHONY : help
 
 

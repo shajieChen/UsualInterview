@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/图/P5318_深基18.例3_查找文献.cpp.o"
+  "CMakeFiles/main.dir/图/P3916_图的遍历.cpp.o"
   "main"
   "main.pdb"
 )
